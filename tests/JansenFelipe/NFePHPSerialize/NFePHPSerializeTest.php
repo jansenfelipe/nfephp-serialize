@@ -5,6 +5,8 @@ namespace JansenFelipe\NFePHPSerialize;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Det;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Imposto\Imposto;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Prod;
+use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Emit\Emit;
+use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Emit\EnderEmit;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Ide;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\InfNFe;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\NFe;
@@ -44,7 +46,6 @@ class NFePHPSerializeTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals($infNFe->versao, "2.00");
         $this->assertEquals(count($infNFe->dets), 10);
 
-
         /*
          * Ide
          */
@@ -69,6 +70,37 @@ class NFePHPSerializeTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals($ide->finNFe, "1");
         $this->assertEquals($ide->procEmi, "0");
         $this->assertEquals($ide->verProc, "2.0");
+
+        /*
+         * Emit
+         */
+        $emit = new Emit();
+        $emit = $infNFe->emit;
+
+        $this->assertEquals($emit->CNPJ, "19592641000372");
+        $this->assertEquals($emit->xNome, "CEREALISTA NOVA SAFRA LTDA");
+        $this->assertEquals($emit->xFant, "NOVA SAFRA");
+        $this->assertEquals($emit->IE, "0624258870284");
+        $this->assertEquals($emit->CRT, "3");
+
+        /*
+         * EnderEmit
+         */
+        $enderEmit = new EnderEmit();
+        $enderEmit = $emit->enderEmit;
+
+        $this->assertEquals($enderEmit->xLgr, "VIA MANOEL JACINTO COELHO JUNIOR");
+        $this->assertEquals($enderEmit->nro, "981");
+        $this->assertEquals($enderEmit->xCpl, "GALPAO 3");
+        $this->assertEquals($enderEmit->xBairro, "CAMPINA VERDE");
+        $this->assertEquals($enderEmit->cMun, "3118601");
+        $this->assertEquals($enderEmit->xMun, "CONTAGEM");
+        $this->assertEquals($enderEmit->UF, "MG");
+        $this->assertEquals($enderEmit->CEP, "32150245");
+        $this->assertEquals($enderEmit->cPais, "1058");
+        $this->assertEquals($enderEmit->xPais, "BRASIL");
+        $this->assertEquals($enderEmit->fone, "3133688300");
+
 
         /*
          * Det (Só o primeiro)

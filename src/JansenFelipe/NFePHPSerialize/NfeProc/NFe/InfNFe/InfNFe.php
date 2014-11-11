@@ -30,6 +30,11 @@ class InfNFe {
     public $ide;
     
     /**
+     * @Type("JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Emit\Emit")
+     */
+    public $emit;
+    
+    /**
      * @XmlList(inline = true, entry = "det")
      * @Type("array<JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Det>")
      */
