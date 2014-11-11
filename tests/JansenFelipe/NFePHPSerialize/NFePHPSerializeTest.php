@@ -1,9 +1,11 @@
 <?php
+
 namespace JansenFelipe\NFePHPSerialize;
 
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Det;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Imposto\Imposto;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Prod;
+use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Ide;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\InfNFe;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\NFe;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\Signature;
@@ -41,6 +43,32 @@ class NFePHPSerializeTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals($infNFe->Id, "NFe31141019592641000372550020009458071111021102");
         $this->assertEquals($infNFe->versao, "2.00");
         $this->assertEquals(count($infNFe->dets), 10);
+
+
+        /*
+         * Ide
+         */
+        $ide = new Ide();
+        $ide = $infNFe->ide;
+
+        $this->assertEquals($ide->cUF, "31");
+        $this->assertEquals($ide->cNF, "11102110");
+        $this->assertEquals($ide->natOp, "VENDA ESTADUAL");
+        $this->assertEquals($ide->indPag, "1");
+        $this->assertEquals($ide->mod, "55");
+        $this->assertEquals($ide->serie, "2");
+        $this->assertEquals($ide->nNF, "945807");
+        $this->assertEquals($ide->dEmi, "2014-10-21");
+        $this->assertEquals($ide->dSaiEnt, "2014-10-21");
+        $this->assertEquals($ide->tpNF, "1");
+        $this->assertEquals($ide->cMunFG, "3118601");
+        $this->assertEquals($ide->tpImp, "1");
+        $this->assertEquals($ide->tpEmis, "1");
+        $this->assertEquals($ide->cDV, "2");
+        $this->assertEquals($ide->tpAmb, "1");
+        $this->assertEquals($ide->finNFe, "1");
+        $this->assertEquals($ide->procEmi, "0");
+        $this->assertEquals($ide->verProc, "2.0");
 
         /*
          * Det (Só o primeiro)
