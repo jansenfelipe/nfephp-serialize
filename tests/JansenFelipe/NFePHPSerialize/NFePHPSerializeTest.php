@@ -2,6 +2,8 @@
 
 namespace JansenFelipe\NFePHPSerialize;
 
+use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Dest\Dest;
+use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Dest\EnderDest;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Det;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Imposto\Imposto;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Prod;
@@ -101,6 +103,34 @@ class NFePHPSerializeTest extends PHPUnit_Framework_TestCase {
         $this->assertEquals($enderEmit->xPais, "BRASIL");
         $this->assertEquals($enderEmit->fone, "3133688300");
 
+        /*
+         * Dest
+         */
+        $dest = new Dest();
+        $dest = $infNFe->dest;
+
+        $this->assertEquals($dest->CNPJ, "13411752000197");
+        $this->assertEquals($dest->xNome, "FIGUEIREDO ALIMENTOS CONGELADOS LTDA-ME");
+        $this->assertEquals($dest->IE, "0017498080010");
+        $this->assertEquals($dest->email, "lila@casadeguste.com.br");
+
+
+        /*
+         * DestEmit
+         */
+        $enderDest = new EnderDest();
+        $enderDest = $dest->enderDest;
+
+        $this->assertEquals($enderDest->xLgr, "RUA FURTADO DE MENEZES, 366 A");
+        $this->assertEquals($enderDest->nro, "366");
+        $this->assertEquals($enderDest->xBairro, "SANTA ROSA");
+        $this->assertEquals($enderDest->cMun, "3106200");
+        $this->assertEquals($enderDest->xMun, "BELO HORIZONTE");
+        $this->assertEquals($enderDest->UF, "MG");
+        $this->assertEquals($enderDest->CEP, "31255780");
+        $this->assertEquals($enderDest->cPais, "1058");
+        $this->assertEquals($enderDest->xPais, "BRASIL");
+        $this->assertEquals($enderDest->fone, "32441999");
 
         /*
          * Det (Só o primeiro)
