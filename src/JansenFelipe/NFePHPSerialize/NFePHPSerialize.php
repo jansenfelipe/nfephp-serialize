@@ -19,7 +19,7 @@ class NFePHPSerialize {
                 ->setPropertyNamingStrategy(new SerializedNameAnnotationStrategy(new IdenticalPropertyNamingStrategy()))
                 ->build();
 
-        return $serializer->deserialize($xml, NfeProc::class, 'xml');
+        return $serializer->deserialize($xml, 'JansenFelipe\NFePHPSerialize\NfeProc\NfeProc', 'xml');
     }
 
     public static function toXml(NfeProc $nfeProc) {

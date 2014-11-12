@@ -14,7 +14,8 @@
         "jms/serializer": "0.17.*@dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0"
+        "phpunit/phpunit": "~4.0",
+        "phpunit/phpunit-skeleton-generator": "*"
     },
     "autoload": {
         "psr-0": {
