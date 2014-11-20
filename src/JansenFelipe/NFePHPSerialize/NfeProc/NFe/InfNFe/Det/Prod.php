@@ -78,6 +78,16 @@ class Prod {
     /**
      * @Type("string")
      */
+    public $vFrete;
+
+    /**
+     * @Type("string")
+     */
+    public $vDesc;
+
+    /**
+     * @Type("string")
+     */
     public $indTot;
 
     /**
