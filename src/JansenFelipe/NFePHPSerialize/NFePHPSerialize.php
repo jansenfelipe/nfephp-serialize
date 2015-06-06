@@ -12,7 +12,7 @@ class NFePHPSerialize {
 
     public static function xml2Object($xml) {
         AnnotationRegistry::registerAutoloadNamespace(
-                'JMS\Serializer\Annotation', './vendor/jms/serializer/src'
+            'JMS\Serializer\Annotation', __DIR__.'/../../../../../jms/serializer/src'
         );
 
         $serializer = SerializerBuilder::create()
