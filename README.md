@@ -1,23 +1,32 @@
 # NFePHP Serialize
-[![Travis](https://travis-ci.org/jansenfelipe/nfephp-serialize.svg)](https://travis-ci.org/jansenfelipe/nfephp-serialize)
+[![Travis](https://travis-ci.org/jansenfelipe/nfephp-serialize.svg?branch=2.0)](https://travis-ci.org/jansenfelipe/nfephp-serialize)
 [![Latest Stable Version](https://poser.pugx.org/jansenfelipe/nfephp-serialize/v/stable.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
 [![Total Downloads](https://poser.pugx.org/jansenfelipe/nfephp-serialize/downloads.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
-[![Latest Unstable Version](https://poser.pugx.org/jansenfelipe/nfephp-serialize/v/unstable.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
-[![License](https://poser.pugx.org/jansenfelipe/nfephp-serialize/license.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize)
+[![Latest Unstable Version](https://poser.pugx.org/jansenfelipe/nfephp-serialize/v/unstable.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize)
+[![MIT license](https://img.shields.io/dub/l/vibe-d.svg)](http://opensource.org/licenses/MIT)
 
+Transforme NFe(xml) em objetos PHP
 
-Transforme NFe(xml) em objetos PHP (e vice-versa)
+### Como utilizar
 
-### Como usar
+Adicione a library
 
-Adicione no seu arquivo `composer.json` o seguinte registro na chave `require`
-
-    "jansenfelipe/nfephp-serialize": "1.0.*@dev"
-
-Execute
-
-    $ composer update
+```sh
+$ composer require jansenfelipe/cnpj-gratis
+```
 
 Adicione o autoload.php do composer no seu arquivo PHP.
 
-    require_once 'vendor/autoload.php';  
+```php
+require_once 'vendor/autoload.php';  
+```
+
+Chame o método `xml2Object` para transformar uma NFe XML em um Objeto
+
+```php
+$object = NFePHPSerialize::xml2Object(file_get_contents('nfe.xml'));
+```
+
+### License
+
+The MIT License (MIT)
