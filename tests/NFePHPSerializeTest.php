@@ -1,7 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize;
-
+use JansenFelipe\NFePHPSerialize\NFePHPSerialize;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Dest\Dest;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Dest\EnderDest;
 use JansenFelipe\NFePHPSerialize\NfeProc\NFe\InfNFe\Det\Det;
@@ -16,9 +15,8 @@ use JansenFelipe\NFePHPSerialize\NfeProc\NFe\Signature;
 use JansenFelipe\NFePHPSerialize\NfeProc\NfeProc;
 use JansenFelipe\NFePHPSerialize\NfeProc\ProtNFe\InfProt;
 use JansenFelipe\NFePHPSerialize\NfeProc\ProtNFe\ProtNFe;
-use PHPUnit_Framework_TestCase;
 
-class NFePHPSerializeTest extends PHPUnit_Framework_TestCase {
+class NFePHPSerializeTest extends PHPUnit_Framework_TestCase{
 
     public function testXml2Object() {
 

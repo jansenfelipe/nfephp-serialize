@@ -1,34 +1,26 @@
 {
-    "name": "jansenfelipe/nfephp-serialize",
-    "description": "Transforme NFe(xml) em objetos PHP (e vice-versa)",
-    "keywords": ["laravel", "nfephp", "nfe", "php"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jansen Felipe",
-            "email": "jansen.felipe@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "jms/serializer": "0.16.*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0",
-        "phpunit/phpunit-skeleton-generator": "*"
-    },
-    "autoload": {
-        "psr-0": {
-            "JansenFelipe\\NFePHPSerialize": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    },
-     "suggest": {
-        "jansenfelipe/sintegra-php": "Gere o arquivo Sintegra para envio a Sefaz."
-    },
-    "minimum-stability": "dev"
+  "name": "jansenfelipe/nfephp-serialize",
+  "description": "Transforme NFe(xml) em objetos PHP (e vice-versa)",
+  "keywords": ["laravel", "nfephp", "nfe", "php"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jansen Felipe",
+      "email": "jansen.felipe@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "jms/serializer": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "phpunit/phpunit-skeleton-generator": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JansenFelipe\\NFePHPSerialize\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
 }
