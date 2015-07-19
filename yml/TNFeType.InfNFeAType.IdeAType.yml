@@ -1,0 +1,246 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType:
+    properties:
+        cUF:
+            expose: true
+            access_type: public_method
+            serialized_name: cUF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCUF
+                setter: setCUF
+            type: string
+        cNF:
+            expose: true
+            access_type: public_method
+            serialized_name: cNF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCNF
+                setter: setCNF
+            type: string
+        natOp:
+            expose: true
+            access_type: public_method
+            serialized_name: natOp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNatOp
+                setter: setNatOp
+            type: string
+        indPag:
+            expose: true
+            access_type: public_method
+            serialized_name: indPag
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIndPag
+                setter: setIndPag
+            type: string
+        mod:
+            expose: true
+            access_type: public_method
+            serialized_name: mod
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getMod
+                setter: setMod
+            type: string
+        serie:
+            expose: true
+            access_type: public_method
+            serialized_name: serie
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getSerie
+                setter: setSerie
+            type: string
+        nNF:
+            expose: true
+            access_type: public_method
+            serialized_name: nNF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNNF
+                setter: setNNF
+            type: string
+        dhEmi:
+            expose: true
+            access_type: public_method
+            serialized_name: dhEmi
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDhEmi
+                setter: setDhEmi
+            type: string
+        dhSaiEnt:
+            expose: true
+            access_type: public_method
+            serialized_name: dhSaiEnt
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDhSaiEnt
+                setter: setDhSaiEnt
+            type: string
+        tpNF:
+            expose: true
+            access_type: public_method
+            serialized_name: tpNF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpNF
+                setter: setTpNF
+            type: string
+        idDest:
+            expose: true
+            access_type: public_method
+            serialized_name: idDest
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIdDest
+                setter: setIdDest
+            type: string
+        cMunFG:
+            expose: true
+            access_type: public_method
+            serialized_name: cMunFG
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCMunFG
+                setter: setCMunFG
+            type: string
+        tpImp:
+            expose: true
+            access_type: public_method
+            serialized_name: tpImp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpImp
+                setter: setTpImp
+            type: string
+        tpEmis:
+            expose: true
+            access_type: public_method
+            serialized_name: tpEmis
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpEmis
+                setter: setTpEmis
+            type: string
+        cDV:
+            expose: true
+            access_type: public_method
+            serialized_name: cDV
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCDV
+                setter: setCDV
+            type: string
+        tpAmb:
+            expose: true
+            access_type: public_method
+            serialized_name: tpAmb
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpAmb
+                setter: setTpAmb
+            type: string
+        finNFe:
+            expose: true
+            access_type: public_method
+            serialized_name: finNFe
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getFinNFe
+                setter: setFinNFe
+            type: string
+        indFinal:
+            expose: true
+            access_type: public_method
+            serialized_name: indFinal
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIndFinal
+                setter: setIndFinal
+            type: string
+        indPres:
+            expose: true
+            access_type: public_method
+            serialized_name: indPres
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIndPres
+                setter: setIndPres
+            type: string
+        procEmi:
+            expose: true
+            access_type: public_method
+            serialized_name: procEmi
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getProcEmi
+                setter: setProcEmi
+            type: string
+        verProc:
+            expose: true
+            access_type: public_method
+            serialized_name: verProc
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVerProc
+                setter: setVerProc
+            type: string
+        dhCont:
+            expose: true
+            access_type: public_method
+            serialized_name: dhCont
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDhCont
+                setter: setDhCont
+            type: string
+        xJust:
+            expose: true
+            access_type: public_method
+            serialized_name: xJust
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXJust
+                setter: setXJust
+            type: string
+        nFref:
+            expose: true
+            access_type: public_method
+            serialized_name: NFref
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNFref
+                setter: setNFref
+            xml_list:
+                inline: true
+                entry_name: NFref
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType>

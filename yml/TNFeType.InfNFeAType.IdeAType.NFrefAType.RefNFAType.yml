@@ -1,0 +1,62 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType:
+    properties:
+        cUF:
+            expose: true
+            access_type: public_method
+            serialized_name: cUF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCUF
+                setter: setCUF
+            type: string
+        aAMM:
+            expose: true
+            access_type: public_method
+            serialized_name: AAMM
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getAAMM
+                setter: setAAMM
+            type: string
+        cNPJ:
+            expose: true
+            access_type: public_method
+            serialized_name: CNPJ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCNPJ
+                setter: setCNPJ
+            type: string
+        mod:
+            expose: true
+            access_type: public_method
+            serialized_name: mod
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getMod
+                setter: setMod
+            type: string
+        serie:
+            expose: true
+            access_type: public_method
+            serialized_name: serie
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getSerie
+                setter: setSerie
+            type: string
+        nNF:
+            expose: true
+            access_type: public_method
+            serialized_name: nNF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNNF
+                setter: setNNF
+            type: string

@@ -1,0 +1,22 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType:
+    properties:
+        xDed:
+            expose: true
+            access_type: public_method
+            serialized_name: xDed
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXDed
+                setter: setXDed
+            type: string
+        vDed:
+            expose: true
+            access_type: public_method
+            serialized_name: vDed
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDed
+                setter: setVDed
+            type: string

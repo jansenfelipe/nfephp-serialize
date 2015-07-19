@@ -1,0 +1,110 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType:
+    properties:
+        safra:
+            expose: true
+            access_type: public_method
+            serialized_name: safra
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getSafra
+                setter: setSafra
+            type: string
+        ref:
+            expose: true
+            access_type: public_method
+            serialized_name: ref
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getRef
+                setter: setRef
+            type: string
+        forDia:
+            expose: true
+            access_type: public_method
+            serialized_name: forDia
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getForDia
+                setter: setForDia
+            xml_list:
+                inline: true
+                entry_name: forDia
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType>
+        qTotMes:
+            expose: true
+            access_type: public_method
+            serialized_name: qTotMes
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQTotMes
+                setter: setQTotMes
+            type: string
+        qTotAnt:
+            expose: true
+            access_type: public_method
+            serialized_name: qTotAnt
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQTotAnt
+                setter: setQTotAnt
+            type: string
+        qTotGer:
+            expose: true
+            access_type: public_method
+            serialized_name: qTotGer
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQTotGer
+                setter: setQTotGer
+            type: string
+        deduc:
+            expose: true
+            access_type: public_method
+            serialized_name: deduc
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDeduc
+                setter: setDeduc
+            xml_list:
+                inline: true
+                entry_name: deduc
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType>
+        vFor:
+            expose: true
+            access_type: public_method
+            serialized_name: vFor
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVFor
+                setter: setVFor
+            type: string
+        vTotDed:
+            expose: true
+            access_type: public_method
+            serialized_name: vTotDed
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVTotDed
+                setter: setVTotDed
+            type: string
+        vLiqFor:
+            expose: true
+            access_type: public_method
+            serialized_name: vLiqFor
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVLiqFor
+                setter: setVLiqFor
+            type: string

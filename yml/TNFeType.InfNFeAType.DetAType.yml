@@ -1,0 +1,51 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType:
+    properties:
+        nItem:
+            expose: true
+            access_type: public_method
+            serialized_name: nItem
+            accessor:
+                getter: getNItem
+                setter: setNItem
+            xml_attribute: true
+            type: string
+        prod:
+            expose: true
+            access_type: public_method
+            serialized_name: prod
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getProd
+                setter: setProd
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
+        imposto:
+            expose: true
+            access_type: public_method
+            serialized_name: imposto
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getImposto
+                setter: setImposto
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
+        impostoDevol:
+            expose: true
+            access_type: public_method
+            serialized_name: impostoDevol
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getImpostoDevol
+                setter: setImpostoDevol
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
+        infAdProd:
+            expose: true
+            access_type: public_method
+            serialized_name: infAdProd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getInfAdProd
+                setter: setInfAdProd
+            type: string

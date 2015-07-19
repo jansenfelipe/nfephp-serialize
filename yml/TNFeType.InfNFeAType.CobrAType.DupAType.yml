@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType:
+    properties:
+        nDup:
+            expose: true
+            access_type: public_method
+            serialized_name: nDup
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNDup
+                setter: setNDup
+            type: string
+        dVenc:
+            expose: true
+            access_type: public_method
+            serialized_name: dVenc
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDVenc
+                setter: setDVenc
+            type: string
+        vDup:
+            expose: true
+            access_type: public_method
+            serialized_name: vDup
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDup
+                setter: setVDup
+            type: string

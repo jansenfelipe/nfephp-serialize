@@ -1,0 +1,31 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNfeProcType:
+    properties:
+        versao:
+            expose: true
+            access_type: public_method
+            serialized_name: versao
+            accessor:
+                getter: getVersao
+                setter: setVersao
+            xml_attribute: true
+            type: string
+        nFe:
+            expose: true
+            access_type: public_method
+            serialized_name: NFe
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNFe
+                setter: setNFe
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType
+        protNFe:
+            expose: true
+            access_type: public_method
+            serialized_name: protNFe
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getProtNFe
+                setter: setProtNFe
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType

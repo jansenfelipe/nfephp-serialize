@@ -1,0 +1,22 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType:
+    properties:
+        nRec:
+            expose: true
+            access_type: public_method
+            serialized_name: nRec
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNRec
+                setter: setNRec
+            type: string
+        tMed:
+            expose: true
+            access_type: public_method
+            serialized_name: tMed
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTMed
+                setter: setTMed
+            type: string

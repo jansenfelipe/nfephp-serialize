@@ -1,0 +1,42 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType:
+    properties:
+        pISAliq:
+            expose: true
+            access_type: public_method
+            serialized_name: PISAliq
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPISAliq
+                setter: setPISAliq
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType
+        pISQtde:
+            expose: true
+            access_type: public_method
+            serialized_name: PISQtde
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPISQtde
+                setter: setPISQtde
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType
+        pISNT:
+            expose: true
+            access_type: public_method
+            serialized_name: PISNT
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPISNT
+                setter: setPISNT
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType
+        pISOutr:
+            expose: true
+            access_type: public_method
+            serialized_name: PISOutr
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPISOutr
+                setter: setPISOutr
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType

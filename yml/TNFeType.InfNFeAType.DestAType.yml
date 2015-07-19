@@ -1,0 +1,102 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType:
+    properties:
+        cNPJ:
+            expose: true
+            access_type: public_method
+            serialized_name: CNPJ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCNPJ
+                setter: setCNPJ
+            type: string
+        cPF:
+            expose: true
+            access_type: public_method
+            serialized_name: CPF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCPF
+                setter: setCPF
+            type: string
+        idEstrangeiro:
+            expose: true
+            access_type: public_method
+            serialized_name: idEstrangeiro
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIdEstrangeiro
+                setter: setIdEstrangeiro
+            type: string
+        xNome:
+            expose: true
+            access_type: public_method
+            serialized_name: xNome
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXNome
+                setter: setXNome
+            type: string
+        enderDest:
+            expose: true
+            access_type: public_method
+            serialized_name: enderDest
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getEnderDest
+                setter: setEnderDest
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderecoType
+        indIEDest:
+            expose: true
+            access_type: public_method
+            serialized_name: indIEDest
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIndIEDest
+                setter: setIndIEDest
+            type: string
+        iE:
+            expose: true
+            access_type: public_method
+            serialized_name: IE
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIE
+                setter: setIE
+            type: string
+        iSUF:
+            expose: true
+            access_type: public_method
+            serialized_name: ISUF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getISUF
+                setter: setISUF
+            type: string
+        iM:
+            expose: true
+            access_type: public_method
+            serialized_name: IM
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIM
+                setter: setIM
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: email
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            type: string

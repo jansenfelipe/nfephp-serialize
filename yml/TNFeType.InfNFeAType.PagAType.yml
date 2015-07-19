@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType:
+    properties:
+        tPag:
+            expose: true
+            access_type: public_method
+            serialized_name: tPag
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTPag
+                setter: setTPag
+            type: string
+        vPag:
+            expose: true
+            access_type: public_method
+            serialized_name: vPag
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVPag
+                setter: setVPag
+            type: string
+        card:
+            expose: true
+            access_type: public_method
+            serialized_name: card
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCard
+                setter: setCard
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType

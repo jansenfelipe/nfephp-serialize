@@ -1,0 +1,90 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType:
+    properties:
+        modFrete:
+            expose: true
+            access_type: public_method
+            serialized_name: modFrete
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getModFrete
+                setter: setModFrete
+            type: string
+        transporta:
+            expose: true
+            access_type: public_method
+            serialized_name: transporta
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTransporta
+                setter: setTransporta
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType
+        retTransp:
+            expose: true
+            access_type: public_method
+            serialized_name: retTransp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getRetTransp
+                setter: setRetTransp
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType
+        veicTransp:
+            expose: true
+            access_type: public_method
+            serialized_name: veicTransp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVeicTransp
+                setter: setVeicTransp
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType
+        reboque:
+            expose: true
+            access_type: public_method
+            serialized_name: reboque
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getReboque
+                setter: setReboque
+            xml_list:
+                inline: true
+                entry_name: reboque
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType>
+        vagao:
+            expose: true
+            access_type: public_method
+            serialized_name: vagao
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVagao
+                setter: setVagao
+            type: string
+        balsa:
+            expose: true
+            access_type: public_method
+            serialized_name: balsa
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getBalsa
+                setter: setBalsa
+            type: string
+        vol:
+            expose: true
+            access_type: public_method
+            serialized_name: vol
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVol
+                setter: setVol
+            xml_list:
+                inline: true
+                entry_name: vol
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType>

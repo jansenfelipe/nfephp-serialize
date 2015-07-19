@@ -1,0 +1,126 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType:
+    properties:
+        nDI:
+            expose: true
+            access_type: public_method
+            serialized_name: nDI
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNDI
+                setter: setNDI
+            type: string
+        dDI:
+            expose: true
+            access_type: public_method
+            serialized_name: dDI
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDDI
+                setter: setDDI
+            type: string
+        xLocDesemb:
+            expose: true
+            access_type: public_method
+            serialized_name: xLocDesemb
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXLocDesemb
+                setter: setXLocDesemb
+            type: string
+        uFDesemb:
+            expose: true
+            access_type: public_method
+            serialized_name: UFDesemb
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getUFDesemb
+                setter: setUFDesemb
+            type: string
+        dDesemb:
+            expose: true
+            access_type: public_method
+            serialized_name: dDesemb
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDDesemb
+                setter: setDDesemb
+            type: string
+        tpViaTransp:
+            expose: true
+            access_type: public_method
+            serialized_name: tpViaTransp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpViaTransp
+                setter: setTpViaTransp
+            type: string
+        vAFRMM:
+            expose: true
+            access_type: public_method
+            serialized_name: vAFRMM
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVAFRMM
+                setter: setVAFRMM
+            type: string
+        tpIntermedio:
+            expose: true
+            access_type: public_method
+            serialized_name: tpIntermedio
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpIntermedio
+                setter: setTpIntermedio
+            type: string
+        cNPJ:
+            expose: true
+            access_type: public_method
+            serialized_name: CNPJ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCNPJ
+                setter: setCNPJ
+            type: string
+        uFTerceiro:
+            expose: true
+            access_type: public_method
+            serialized_name: UFTerceiro
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getUFTerceiro
+                setter: setUFTerceiro
+            type: string
+        cExportador:
+            expose: true
+            access_type: public_method
+            serialized_name: cExportador
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCExportador
+                setter: setCExportador
+            type: string
+        adi:
+            expose: true
+            access_type: public_method
+            serialized_name: adi
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getAdi
+                setter: setAdi
+            xml_list:
+                inline: true
+                entry_name: adi
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType>

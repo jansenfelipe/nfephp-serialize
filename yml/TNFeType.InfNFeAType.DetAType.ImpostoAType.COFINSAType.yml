@@ -1,0 +1,42 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType:
+    properties:
+        cOFINSAliq:
+            expose: true
+            access_type: public_method
+            serialized_name: COFINSAliq
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCOFINSAliq
+                setter: setCOFINSAliq
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType
+        cOFINSQtde:
+            expose: true
+            access_type: public_method
+            serialized_name: COFINSQtde
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCOFINSQtde
+                setter: setCOFINSQtde
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType
+        cOFINSNT:
+            expose: true
+            access_type: public_method
+            serialized_name: COFINSNT
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCOFINSNT
+                setter: setCOFINSNT
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType
+        cOFINSOutr:
+            expose: true
+            access_type: public_method
+            serialized_name: COFINSOutr
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCOFINSOutr
+                setter: setCOFINSOutr
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType

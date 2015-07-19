@@ -1,0 +1,42 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType:
+    properties:
+        cST:
+            expose: true
+            access_type: public_method
+            serialized_name: CST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCST
+                setter: setCST
+            type: string
+        vBC:
+            expose: true
+            access_type: public_method
+            serialized_name: vBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBC
+                setter: setVBC
+            type: string
+        pPIS:
+            expose: true
+            access_type: public_method
+            serialized_name: pPIS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPPIS
+                setter: setPPIS
+            type: string
+        vPIS:
+            expose: true
+            access_type: public_method
+            serialized_name: vPIS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVPIS
+                setter: setVPIS
+            type: string

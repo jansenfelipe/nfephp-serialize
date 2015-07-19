@@ -1,0 +1,92 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType:
+    properties:
+        vTotTrib:
+            expose: true
+            access_type: public_method
+            serialized_name: vTotTrib
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVTotTrib
+                setter: setVTotTrib
+            type: string
+        iCMS:
+            expose: true
+            access_type: public_method
+            serialized_name: ICMS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getICMS
+                setter: setICMS
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType
+        iPI:
+            expose: true
+            access_type: public_method
+            serialized_name: IPI
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIPI
+                setter: setIPI
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType
+        iI:
+            expose: true
+            access_type: public_method
+            serialized_name: II
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getII
+                setter: setII
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType
+        iSSQN:
+            expose: true
+            access_type: public_method
+            serialized_name: ISSQN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getISSQN
+                setter: setISSQN
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType
+        pIS:
+            expose: true
+            access_type: public_method
+            serialized_name: PIS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPIS
+                setter: setPIS
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType
+        pISST:
+            expose: true
+            access_type: public_method
+            serialized_name: PISST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPISST
+                setter: setPISST
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType
+        cOFINS:
+            expose: true
+            access_type: public_method
+            serialized_name: COFINS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCOFINS
+                setter: setCOFINS
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType
+        cOFINSST:
+            expose: true
+            access_type: public_method
+            serialized_name: COFINSST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCOFINSST
+                setter: setCOFINSST
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType

@@ -1,0 +1,12 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType:
+    properties:
+        nLacre:
+            expose: true
+            access_type: public_method
+            serialized_name: nLacre
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNLacre
+                setter: setNLacre
+            type: string

@@ -1,0 +1,42 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType:
+    properties:
+        orig:
+            expose: true
+            access_type: public_method
+            serialized_name: orig
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getOrig
+                setter: setOrig
+            type: string
+        cST:
+            expose: true
+            access_type: public_method
+            serialized_name: CST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCST
+                setter: setCST
+            type: string
+        vBCSTRet:
+            expose: true
+            access_type: public_method
+            serialized_name: vBCSTRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBCSTRet
+                setter: setVBCSTRet
+            type: string
+        vICMSSTRet:
+            expose: true
+            access_type: public_method
+            serialized_name: vICMSSTRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVICMSSTRet
+                setter: setVICMSSTRet
+            type: string

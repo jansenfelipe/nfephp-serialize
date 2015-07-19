@@ -1,0 +1,22 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType:
+    properties:
+        nProc:
+            expose: true
+            access_type: public_method
+            serialized_name: nProc
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNProc
+                setter: setNProc
+            type: string
+        indProc:
+            expose: true
+            access_type: public_method
+            serialized_name: indProc
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIndProc
+                setter: setIndProc
+            type: string

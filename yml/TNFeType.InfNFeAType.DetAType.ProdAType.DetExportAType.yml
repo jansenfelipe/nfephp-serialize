@@ -1,0 +1,22 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType:
+    properties:
+        nDraw:
+            expose: true
+            access_type: public_method
+            serialized_name: nDraw
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNDraw
+                setter: setNDraw
+            type: string
+        exportInd:
+            expose: true
+            access_type: public_method
+            serialized_name: exportInd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getExportInd
+                setter: setExportInd
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType

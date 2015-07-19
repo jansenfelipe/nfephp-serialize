@@ -1,0 +1,12 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType:
+    properties:
+        vIPIDevol:
+            expose: true
+            access_type: public_method
+            serialized_name: vIPIDevol
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVIPIDevol
+                setter: setVIPIDevol
+            type: string

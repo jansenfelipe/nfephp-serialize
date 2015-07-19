@@ -1,0 +1,122 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType:
+    properties:
+        vServ:
+            expose: true
+            access_type: public_method
+            serialized_name: vServ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVServ
+                setter: setVServ
+            type: string
+        vBC:
+            expose: true
+            access_type: public_method
+            serialized_name: vBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBC
+                setter: setVBC
+            type: string
+        vISS:
+            expose: true
+            access_type: public_method
+            serialized_name: vISS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVISS
+                setter: setVISS
+            type: string
+        vPIS:
+            expose: true
+            access_type: public_method
+            serialized_name: vPIS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVPIS
+                setter: setVPIS
+            type: string
+        vCOFINS:
+            expose: true
+            access_type: public_method
+            serialized_name: vCOFINS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVCOFINS
+                setter: setVCOFINS
+            type: string
+        dCompet:
+            expose: true
+            access_type: public_method
+            serialized_name: dCompet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDCompet
+                setter: setDCompet
+            type: string
+        vDeducao:
+            expose: true
+            access_type: public_method
+            serialized_name: vDeducao
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDeducao
+                setter: setVDeducao
+            type: string
+        vOutro:
+            expose: true
+            access_type: public_method
+            serialized_name: vOutro
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVOutro
+                setter: setVOutro
+            type: string
+        vDescIncond:
+            expose: true
+            access_type: public_method
+            serialized_name: vDescIncond
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDescIncond
+                setter: setVDescIncond
+            type: string
+        vDescCond:
+            expose: true
+            access_type: public_method
+            serialized_name: vDescCond
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDescCond
+                setter: setVDescCond
+            type: string
+        vISSRet:
+            expose: true
+            access_type: public_method
+            serialized_name: vISSRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVISSRet
+                setter: setVISSRet
+            type: string
+        cRegTrib:
+            expose: true
+            access_type: public_method
+            serialized_name: cRegTrib
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCRegTrib
+                setter: setCRegTrib
+            type: string

@@ -1,0 +1,42 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType:
+    properties:
+        tpArma:
+            expose: true
+            access_type: public_method
+            serialized_name: tpArma
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpArma
+                setter: setTpArma
+            type: string
+        nSerie:
+            expose: true
+            access_type: public_method
+            serialized_name: nSerie
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNSerie
+                setter: setNSerie
+            type: string
+        nCano:
+            expose: true
+            access_type: public_method
+            serialized_name: nCano
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNCano
+                setter: setNCano
+            type: string
+        descr:
+            expose: true
+            access_type: public_method
+            serialized_name: descr
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDescr
+                setter: setDescr
+            type: string

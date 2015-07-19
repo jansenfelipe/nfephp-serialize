@@ -1,0 +1,42 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType:
+    properties:
+        nFat:
+            expose: true
+            access_type: public_method
+            serialized_name: nFat
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNFat
+                setter: setNFat
+            type: string
+        vOrig:
+            expose: true
+            access_type: public_method
+            serialized_name: vOrig
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVOrig
+                setter: setVOrig
+            type: string
+        vDesc:
+            expose: true
+            access_type: public_method
+            serialized_name: vDesc
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDesc
+                setter: setVDesc
+            type: string
+        vLiq:
+            expose: true
+            access_type: public_method
+            serialized_name: vLiq
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVLiq
+                setter: setVLiq
+            type: string

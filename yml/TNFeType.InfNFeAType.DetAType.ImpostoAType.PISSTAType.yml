@@ -1,0 +1,52 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType:
+    properties:
+        vBC:
+            expose: true
+            access_type: public_method
+            serialized_name: vBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBC
+                setter: setVBC
+            type: string
+        pPIS:
+            expose: true
+            access_type: public_method
+            serialized_name: pPIS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPPIS
+                setter: setPPIS
+            type: string
+        qBCProd:
+            expose: true
+            access_type: public_method
+            serialized_name: qBCProd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQBCProd
+                setter: setQBCProd
+            type: string
+        vAliqProd:
+            expose: true
+            access_type: public_method
+            serialized_name: vAliqProd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVAliqProd
+                setter: setVAliqProd
+            type: string
+        vPIS:
+            expose: true
+            access_type: public_method
+            serialized_name: vPIS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVPIS
+                setter: setVPIS
+            type: string

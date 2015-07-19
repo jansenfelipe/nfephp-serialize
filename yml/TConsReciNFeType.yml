@@ -1,0 +1,31 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TConsReciNFeType:
+    properties:
+        versao:
+            expose: true
+            access_type: public_method
+            serialized_name: versao
+            accessor:
+                getter: getVersao
+                setter: setVersao
+            xml_attribute: true
+            type: string
+        tpAmb:
+            expose: true
+            access_type: public_method
+            serialized_name: tpAmb
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpAmb
+                setter: setTpAmb
+            type: string
+        nRec:
+            expose: true
+            access_type: public_method
+            serialized_name: nRec
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNRec
+                setter: setNRec
+            type: string

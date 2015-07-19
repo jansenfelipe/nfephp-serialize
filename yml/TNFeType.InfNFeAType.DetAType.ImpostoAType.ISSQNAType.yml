@@ -1,0 +1,162 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType:
+    properties:
+        vBC:
+            expose: true
+            access_type: public_method
+            serialized_name: vBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBC
+                setter: setVBC
+            type: string
+        vAliq:
+            expose: true
+            access_type: public_method
+            serialized_name: vAliq
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVAliq
+                setter: setVAliq
+            type: string
+        vISSQN:
+            expose: true
+            access_type: public_method
+            serialized_name: vISSQN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVISSQN
+                setter: setVISSQN
+            type: string
+        cMunFG:
+            expose: true
+            access_type: public_method
+            serialized_name: cMunFG
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCMunFG
+                setter: setCMunFG
+            type: string
+        cListServ:
+            expose: true
+            access_type: public_method
+            serialized_name: cListServ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCListServ
+                setter: setCListServ
+            type: string
+        vDeducao:
+            expose: true
+            access_type: public_method
+            serialized_name: vDeducao
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDeducao
+                setter: setVDeducao
+            type: string
+        vOutro:
+            expose: true
+            access_type: public_method
+            serialized_name: vOutro
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVOutro
+                setter: setVOutro
+            type: string
+        vDescIncond:
+            expose: true
+            access_type: public_method
+            serialized_name: vDescIncond
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDescIncond
+                setter: setVDescIncond
+            type: string
+        vDescCond:
+            expose: true
+            access_type: public_method
+            serialized_name: vDescCond
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDescCond
+                setter: setVDescCond
+            type: string
+        vISSRet:
+            expose: true
+            access_type: public_method
+            serialized_name: vISSRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVISSRet
+                setter: setVISSRet
+            type: string
+        indISS:
+            expose: true
+            access_type: public_method
+            serialized_name: indISS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIndISS
+                setter: setIndISS
+            type: string
+        cServico:
+            expose: true
+            access_type: public_method
+            serialized_name: cServico
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCServico
+                setter: setCServico
+            type: string
+        cMun:
+            expose: true
+            access_type: public_method
+            serialized_name: cMun
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCMun
+                setter: setCMun
+            type: string
+        cPais:
+            expose: true
+            access_type: public_method
+            serialized_name: cPais
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCPais
+                setter: setCPais
+            type: string
+        nProcesso:
+            expose: true
+            access_type: public_method
+            serialized_name: nProcesso
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNProcesso
+                setter: setNProcesso
+            type: string
+        indIncentivo:
+            expose: true
+            access_type: public_method
+            serialized_name: indIncentivo
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIndIncentivo
+                setter: setIndIncentivo
+            type: string

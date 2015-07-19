@@ -1,0 +1,76 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType:
+    properties:
+        qVol:
+            expose: true
+            access_type: public_method
+            serialized_name: qVol
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQVol
+                setter: setQVol
+            type: string
+        esp:
+            expose: true
+            access_type: public_method
+            serialized_name: esp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getEsp
+                setter: setEsp
+            type: string
+        marca:
+            expose: true
+            access_type: public_method
+            serialized_name: marca
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getMarca
+                setter: setMarca
+            type: string
+        nVol:
+            expose: true
+            access_type: public_method
+            serialized_name: nVol
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNVol
+                setter: setNVol
+            type: string
+        pesoL:
+            expose: true
+            access_type: public_method
+            serialized_name: pesoL
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPesoL
+                setter: setPesoL
+            type: string
+        pesoB:
+            expose: true
+            access_type: public_method
+            serialized_name: pesoB
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPesoB
+                setter: setPesoB
+            type: string
+        lacres:
+            expose: true
+            access_type: public_method
+            serialized_name: lacres
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getLacres
+                setter: setLacres
+            xml_list:
+                inline: true
+                entry_name: lacres
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType>

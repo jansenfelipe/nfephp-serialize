@@ -1,0 +1,62 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType:
+    properties:
+        orig:
+            expose: true
+            access_type: public_method
+            serialized_name: orig
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getOrig
+                setter: setOrig
+            type: string
+        cST:
+            expose: true
+            access_type: public_method
+            serialized_name: CST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCST
+                setter: setCST
+            type: string
+        vBCSTRet:
+            expose: true
+            access_type: public_method
+            serialized_name: vBCSTRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBCSTRet
+                setter: setVBCSTRet
+            type: string
+        vICMSSTRet:
+            expose: true
+            access_type: public_method
+            serialized_name: vICMSSTRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVICMSSTRet
+                setter: setVICMSSTRet
+            type: string
+        vBCSTDest:
+            expose: true
+            access_type: public_method
+            serialized_name: vBCSTDest
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBCSTDest
+                setter: setVBCSTDest
+            type: string
+        vICMSSTDest:
+            expose: true
+            access_type: public_method
+            serialized_name: vICMSSTDest
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVICMSSTDest
+                setter: setVICMSSTDest
+            type: string

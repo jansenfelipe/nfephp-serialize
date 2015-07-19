@@ -1,0 +1,62 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType:
+    properties:
+        vServ:
+            expose: true
+            access_type: public_method
+            serialized_name: vServ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVServ
+                setter: setVServ
+            type: string
+        vBCRet:
+            expose: true
+            access_type: public_method
+            serialized_name: vBCRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBCRet
+                setter: setVBCRet
+            type: string
+        pICMSRet:
+            expose: true
+            access_type: public_method
+            serialized_name: pICMSRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPICMSRet
+                setter: setPICMSRet
+            type: string
+        vICMSRet:
+            expose: true
+            access_type: public_method
+            serialized_name: vICMSRet
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVICMSRet
+                setter: setVICMSRet
+            type: string
+        cFOP:
+            expose: true
+            access_type: public_method
+            serialized_name: CFOP
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCFOP
+                setter: setCFOP
+            type: string
+        cMunFG:
+            expose: true
+            access_type: public_method
+            serialized_name: cMunFG
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCMunFG
+                setter: setCMunFG
+            type: string

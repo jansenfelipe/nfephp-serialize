@@ -1,0 +1,62 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType:
+    properties:
+        orig:
+            expose: true
+            access_type: public_method
+            serialized_name: orig
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getOrig
+                setter: setOrig
+            type: string
+        cST:
+            expose: true
+            access_type: public_method
+            serialized_name: CST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCST
+                setter: setCST
+            type: string
+        modBC:
+            expose: true
+            access_type: public_method
+            serialized_name: modBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getModBC
+                setter: setModBC
+            type: string
+        vBC:
+            expose: true
+            access_type: public_method
+            serialized_name: vBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBC
+                setter: setVBC
+            type: string
+        pICMS:
+            expose: true
+            access_type: public_method
+            serialized_name: pICMS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPICMS
+                setter: setPICMS
+            type: string
+        vICMS:
+            expose: true
+            access_type: public_method
+            serialized_name: vICMS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVICMS
+                setter: setVICMS
+            type: string

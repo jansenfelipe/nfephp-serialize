@@ -1,0 +1,12 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType:
+    properties:
+        cST:
+            expose: true
+            access_type: public_method
+            serialized_name: CST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCST
+                setter: setCST
+            type: string

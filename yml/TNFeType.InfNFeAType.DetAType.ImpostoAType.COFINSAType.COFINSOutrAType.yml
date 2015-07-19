@@ -1,0 +1,62 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType:
+    properties:
+        cST:
+            expose: true
+            access_type: public_method
+            serialized_name: CST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCST
+                setter: setCST
+            type: string
+        vBC:
+            expose: true
+            access_type: public_method
+            serialized_name: vBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBC
+                setter: setVBC
+            type: string
+        pCOFINS:
+            expose: true
+            access_type: public_method
+            serialized_name: pCOFINS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPCOFINS
+                setter: setPCOFINS
+            type: string
+        qBCProd:
+            expose: true
+            access_type: public_method
+            serialized_name: qBCProd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQBCProd
+                setter: setQBCProd
+            type: string
+        vAliqProd:
+            expose: true
+            access_type: public_method
+            serialized_name: vAliqProd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVAliqProd
+                setter: setVAliqProd
+            type: string
+        vCOFINS:
+            expose: true
+            access_type: public_method
+            serialized_name: vCOFINS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVCOFINS
+                setter: setVCOFINS
+            type: string

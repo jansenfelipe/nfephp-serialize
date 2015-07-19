@@ -1,0 +1,64 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType:
+    properties:
+        infAdFisco:
+            expose: true
+            access_type: public_method
+            serialized_name: infAdFisco
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getInfAdFisco
+                setter: setInfAdFisco
+            type: string
+        infCpl:
+            expose: true
+            access_type: public_method
+            serialized_name: infCpl
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getInfCpl
+                setter: setInfCpl
+            type: string
+        obsCont:
+            expose: true
+            access_type: public_method
+            serialized_name: obsCont
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getObsCont
+                setter: setObsCont
+            xml_list:
+                inline: true
+                entry_name: obsCont
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType>
+        obsFisco:
+            expose: true
+            access_type: public_method
+            serialized_name: obsFisco
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getObsFisco
+                setter: setObsFisco
+            xml_list:
+                inline: true
+                entry_name: obsFisco
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType>
+        procRef:
+            expose: true
+            access_type: public_method
+            serialized_name: procRef
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getProcRef
+                setter: setProcRef
+            xml_list:
+                inline: true
+                entry_name: procRef
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType>

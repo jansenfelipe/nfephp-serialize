@@ -1,0 +1,22 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType:
+    properties:
+        pDevol:
+            expose: true
+            access_type: public_method
+            serialized_name: pDevol
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPDevol
+                setter: setPDevol
+            type: string
+        iPI:
+            expose: true
+            access_type: public_method
+            serialized_name: IPI
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIPI
+                setter: setIPI
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType

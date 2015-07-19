@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType:
+    properties:
+        uFSaidaPais:
+            expose: true
+            access_type: public_method
+            serialized_name: UFSaidaPais
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getUFSaidaPais
+                setter: setUFSaidaPais
+            type: string
+        xLocExporta:
+            expose: true
+            access_type: public_method
+            serialized_name: xLocExporta
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXLocExporta
+                setter: setXLocExporta
+            type: string
+        xLocDespacho:
+            expose: true
+            access_type: public_method
+            serialized_name: xLocDespacho
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXLocDespacho
+                setter: setXLocDespacho
+            type: string

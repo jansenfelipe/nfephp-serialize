@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType:
+    properties:
+        placa:
+            expose: true
+            access_type: public_method
+            serialized_name: placa
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPlaca
+                setter: setPlaca
+            type: string
+        uF:
+            expose: true
+            access_type: public_method
+            serialized_name: UF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getUF
+                setter: setUF
+            type: string
+        rNTC:
+            expose: true
+            access_type: public_method
+            serialized_name: RNTC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getRNTC
+                setter: setRNTC
+            type: string

@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType:
+    properties:
+        xNEmp:
+            expose: true
+            access_type: public_method
+            serialized_name: xNEmp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXNEmp
+                setter: setXNEmp
+            type: string
+        xPed:
+            expose: true
+            access_type: public_method
+            serialized_name: xPed
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXPed
+                setter: setXPed
+            type: string
+        xCont:
+            expose: true
+            access_type: public_method
+            serialized_name: xCont
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXCont
+                setter: setXCont
+            type: string

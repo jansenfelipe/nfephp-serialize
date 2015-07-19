@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType:
+    properties:
+        qBCProd:
+            expose: true
+            access_type: public_method
+            serialized_name: qBCProd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQBCProd
+                setter: setQBCProd
+            type: string
+        vAliqProd:
+            expose: true
+            access_type: public_method
+            serialized_name: vAliqProd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVAliqProd
+                setter: setVAliqProd
+            type: string
+        vCIDE:
+            expose: true
+            access_type: public_method
+            serialized_name: vCIDE
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVCIDE
+                setter: setVCIDE
+            type: string

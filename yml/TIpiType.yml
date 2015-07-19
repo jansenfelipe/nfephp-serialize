@@ -1,0 +1,72 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType:
+    properties:
+        clEnq:
+            expose: true
+            access_type: public_method
+            serialized_name: clEnq
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getClEnq
+                setter: setClEnq
+            type: string
+        cNPJProd:
+            expose: true
+            access_type: public_method
+            serialized_name: CNPJProd
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCNPJProd
+                setter: setCNPJProd
+            type: string
+        cSelo:
+            expose: true
+            access_type: public_method
+            serialized_name: cSelo
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCSelo
+                setter: setCSelo
+            type: string
+        qSelo:
+            expose: true
+            access_type: public_method
+            serialized_name: qSelo
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQSelo
+                setter: setQSelo
+            type: string
+        cEnq:
+            expose: true
+            access_type: public_method
+            serialized_name: cEnq
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCEnq
+                setter: setCEnq
+            type: string
+        iPITrib:
+            expose: true
+            access_type: public_method
+            serialized_name: IPITrib
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIPITrib
+                setter: setIPITrib
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType
+        iPINT:
+            expose: true
+            access_type: public_method
+            serialized_name: IPINT
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIPINT
+                setter: setIPINT
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType

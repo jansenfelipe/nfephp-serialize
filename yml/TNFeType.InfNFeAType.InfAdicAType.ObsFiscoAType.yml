@@ -1,0 +1,21 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType:
+    properties:
+        xCampo:
+            expose: true
+            access_type: public_method
+            serialized_name: xCampo
+            accessor:
+                getter: getXCampo
+                setter: setXCampo
+            xml_attribute: true
+            type: string
+        xTexto:
+            expose: true
+            access_type: public_method
+            serialized_name: xTexto
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXTexto
+                setter: setXTexto
+            type: string

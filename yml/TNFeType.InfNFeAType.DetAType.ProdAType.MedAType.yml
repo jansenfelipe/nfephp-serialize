@@ -1,0 +1,52 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType:
+    properties:
+        nLote:
+            expose: true
+            access_type: public_method
+            serialized_name: nLote
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNLote
+                setter: setNLote
+            type: string
+        qLote:
+            expose: true
+            access_type: public_method
+            serialized_name: qLote
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQLote
+                setter: setQLote
+            type: string
+        dFab:
+            expose: true
+            access_type: public_method
+            serialized_name: dFab
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDFab
+                setter: setDFab
+            type: string
+        dVal:
+            expose: true
+            access_type: public_method
+            serialized_name: dVal
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDVal
+                setter: setDVal
+            type: string
+        vPMC:
+            expose: true
+            access_type: public_method
+            serialized_name: vPMC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVPMC
+                setter: setVPMC
+            type: string

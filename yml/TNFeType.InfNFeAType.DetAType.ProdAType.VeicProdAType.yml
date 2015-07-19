@@ -1,0 +1,242 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType:
+    properties:
+        tpOp:
+            expose: true
+            access_type: public_method
+            serialized_name: tpOp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpOp
+                setter: setTpOp
+            type: string
+        chassi:
+            expose: true
+            access_type: public_method
+            serialized_name: chassi
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getChassi
+                setter: setChassi
+            type: string
+        cCor:
+            expose: true
+            access_type: public_method
+            serialized_name: cCor
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCCor
+                setter: setCCor
+            type: string
+        xCor:
+            expose: true
+            access_type: public_method
+            serialized_name: xCor
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXCor
+                setter: setXCor
+            type: string
+        pot:
+            expose: true
+            access_type: public_method
+            serialized_name: pot
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPot
+                setter: setPot
+            type: string
+        cilin:
+            expose: true
+            access_type: public_method
+            serialized_name: cilin
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCilin
+                setter: setCilin
+            type: string
+        pesoL:
+            expose: true
+            access_type: public_method
+            serialized_name: pesoL
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPesoL
+                setter: setPesoL
+            type: string
+        pesoB:
+            expose: true
+            access_type: public_method
+            serialized_name: pesoB
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPesoB
+                setter: setPesoB
+            type: string
+        nSerie:
+            expose: true
+            access_type: public_method
+            serialized_name: nSerie
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNSerie
+                setter: setNSerie
+            type: string
+        tpComb:
+            expose: true
+            access_type: public_method
+            serialized_name: tpComb
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpComb
+                setter: setTpComb
+            type: string
+        nMotor:
+            expose: true
+            access_type: public_method
+            serialized_name: nMotor
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNMotor
+                setter: setNMotor
+            type: string
+        cMT:
+            expose: true
+            access_type: public_method
+            serialized_name: CMT
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCMT
+                setter: setCMT
+            type: string
+        dist:
+            expose: true
+            access_type: public_method
+            serialized_name: dist
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDist
+                setter: setDist
+            type: string
+        anoMod:
+            expose: true
+            access_type: public_method
+            serialized_name: anoMod
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getAnoMod
+                setter: setAnoMod
+            type: string
+        anoFab:
+            expose: true
+            access_type: public_method
+            serialized_name: anoFab
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getAnoFab
+                setter: setAnoFab
+            type: string
+        tpPint:
+            expose: true
+            access_type: public_method
+            serialized_name: tpPint
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpPint
+                setter: setTpPint
+            type: string
+        tpVeic:
+            expose: true
+            access_type: public_method
+            serialized_name: tpVeic
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpVeic
+                setter: setTpVeic
+            type: string
+        espVeic:
+            expose: true
+            access_type: public_method
+            serialized_name: espVeic
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getEspVeic
+                setter: setEspVeic
+            type: string
+        vIN:
+            expose: true
+            access_type: public_method
+            serialized_name: VIN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVIN
+                setter: setVIN
+            type: string
+        condVeic:
+            expose: true
+            access_type: public_method
+            serialized_name: condVeic
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCondVeic
+                setter: setCondVeic
+            type: string
+        cMod:
+            expose: true
+            access_type: public_method
+            serialized_name: cMod
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCMod
+                setter: setCMod
+            type: string
+        cCorDENATRAN:
+            expose: true
+            access_type: public_method
+            serialized_name: cCorDENATRAN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCCorDENATRAN
+                setter: setCCorDENATRAN
+            type: string
+        lota:
+            expose: true
+            access_type: public_method
+            serialized_name: lota
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getLota
+                setter: setLota
+            type: string
+        tpRest:
+            expose: true
+            access_type: public_method
+            serialized_name: tpRest
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpRest
+                setter: setTpRest
+            type: string

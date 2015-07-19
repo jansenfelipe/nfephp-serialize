@@ -1,0 +1,22 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType:
+    properties:
+        orig:
+            expose: true
+            access_type: public_method
+            serialized_name: orig
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getOrig
+                setter: setOrig
+            type: string
+        cSOSN:
+            expose: true
+            access_type: public_method
+            serialized_name: CSOSN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCSOSN
+                setter: setCSOSN
+            type: string

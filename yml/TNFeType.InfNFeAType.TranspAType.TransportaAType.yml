@@ -1,0 +1,72 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType:
+    properties:
+        cNPJ:
+            expose: true
+            access_type: public_method
+            serialized_name: CNPJ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCNPJ
+                setter: setCNPJ
+            type: string
+        cPF:
+            expose: true
+            access_type: public_method
+            serialized_name: CPF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCPF
+                setter: setCPF
+            type: string
+        xNome:
+            expose: true
+            access_type: public_method
+            serialized_name: xNome
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXNome
+                setter: setXNome
+            type: string
+        iE:
+            expose: true
+            access_type: public_method
+            serialized_name: IE
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getIE
+                setter: setIE
+            type: string
+        xEnder:
+            expose: true
+            access_type: public_method
+            serialized_name: xEnder
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXEnder
+                setter: setXEnder
+            type: string
+        xMun:
+            expose: true
+            access_type: public_method
+            serialized_name: xMun
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXMun
+                setter: setXMun
+            type: string
+        uF:
+            expose: true
+            access_type: public_method
+            serialized_name: UF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getUF
+                setter: setUF
+            type: string

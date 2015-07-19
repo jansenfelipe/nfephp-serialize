@@ -2,34 +2,39 @@
 
 namespace JansenFelipe\NFePHPSerialize;
 
-use Doctrine\Common\Annotations\AnnotationRegistry;
-use JansenFelipe\NFePHPSerialize\NfeProc\NfeProc;
-use JMS\Serializer\Naming\IdenticalPropertyNamingStrategy;
-use JMS\Serializer\Naming\SerializedNameAnnotationStrategy;
+use Goetas\Xsd\XsdToPhp\Jms\Handler\BaseTypesHandler;
+use Goetas\Xsd\XsdToPhp\Jms\Handler\XmlSchemaDateHandler;
+use JansenFelipe\NFePHPSerialize\NotaFiscal\NFe;
+use JMS\Serializer\Handler\HandlerRegistryInterface;
 use JMS\Serializer\SerializerBuilder;
-use ReflectionClass;
 
 class NFePHPSerialize {
 
     /**
      * Transforma um XML (string) em Objeto (NfeProc)
      *
-     * @return NfeProc
+     * @return NFe
      */
     public static function xml2Object($xml) {
 
-        AnnotationRegistry::registerAutoloadNamespace(
-            'JMS\Serializer\Annotation',  dirname((new ReflectionClass(SerializerBuilder::class))->getFileName()).'/../../'
-        );
+        $serializerBuilder = SerializerBuilder::create();
+        $serializerBuilder->addMetadataDir(__DIR__.'/../yml', 'JansenFelipe\NFePHPSerialize\NotaFiscal');
 
-        $serializer = SerializerBuilder::create()
-                ->setPropertyNamingStrategy(new SerializedNameAnnotationStrategy(new IdenticalPropertyNamingStrategy()))
-                ->build();
+        $serializerBuilder->configureHandlers(function (HandlerRegistryInterface $handler) use ($serializerBuilder) {
+            $serializerBuilder->addDefaultHandlers();
 
-        return $serializer->deserialize($xml, 'JansenFelipe\NFePHPSerialize\NfeProc\NfeProc', 'xml');
+            $handler->registerSubscribingHandler(new BaseTypesHandler()); // XMLSchema List handling
+            $handler->registerSubscribingHandler(new XmlSchemaDateHandler()); // XMLSchema date handling
+
+        });
+
+        $serializer = $serializerBuilder->build();
+
+
+        return $serializer->deserialize($xml, NFe::class, 'xml');
     }
 
-    public static function objectToXml(NfeProc $nfeProc) {
+    public static function objectToXml(NFe $nfe) {
         return "";
     }
 

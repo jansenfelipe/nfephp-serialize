@@ -1,0 +1,52 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType:
+    properties:
+        nAdicao:
+            expose: true
+            access_type: public_method
+            serialized_name: nAdicao
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNAdicao
+                setter: setNAdicao
+            type: string
+        nSeqAdic:
+            expose: true
+            access_type: public_method
+            serialized_name: nSeqAdic
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNSeqAdic
+                setter: setNSeqAdic
+            type: string
+        cFabricante:
+            expose: true
+            access_type: public_method
+            serialized_name: cFabricante
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCFabricante
+                setter: setCFabricante
+            type: string
+        vDescDI:
+            expose: true
+            access_type: public_method
+            serialized_name: vDescDI
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDescDI
+                setter: setVDescDI
+            type: string
+        nDraw:
+            expose: true
+            access_type: public_method
+            serialized_name: nDraw
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNDraw
+                setter: setNDraw
+            type: string

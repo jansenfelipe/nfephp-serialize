@@ -1,0 +1,42 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType:
+    properties:
+        orig:
+            expose: true
+            access_type: public_method
+            serialized_name: orig
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getOrig
+                setter: setOrig
+            type: string
+        cSOSN:
+            expose: true
+            access_type: public_method
+            serialized_name: CSOSN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCSOSN
+                setter: setCSOSN
+            type: string
+        pCredSN:
+            expose: true
+            access_type: public_method
+            serialized_name: pCredSN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPCredSN
+                setter: setPCredSN
+            type: string
+        vCredICMSSN:
+            expose: true
+            access_type: public_method
+            serialized_name: vCredICMSSN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVCredICMSSN
+                setter: setVCredICMSSN
+            type: string

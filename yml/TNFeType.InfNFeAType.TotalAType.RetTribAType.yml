@@ -1,0 +1,72 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType:
+    properties:
+        vRetPIS:
+            expose: true
+            access_type: public_method
+            serialized_name: vRetPIS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVRetPIS
+                setter: setVRetPIS
+            type: string
+        vRetCOFINS:
+            expose: true
+            access_type: public_method
+            serialized_name: vRetCOFINS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVRetCOFINS
+                setter: setVRetCOFINS
+            type: string
+        vRetCSLL:
+            expose: true
+            access_type: public_method
+            serialized_name: vRetCSLL
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVRetCSLL
+                setter: setVRetCSLL
+            type: string
+        vBCIRRF:
+            expose: true
+            access_type: public_method
+            serialized_name: vBCIRRF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBCIRRF
+                setter: setVBCIRRF
+            type: string
+        vIRRF:
+            expose: true
+            access_type: public_method
+            serialized_name: vIRRF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVIRRF
+                setter: setVIRRF
+            type: string
+        vBCRetPrev:
+            expose: true
+            access_type: public_method
+            serialized_name: vBCRetPrev
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBCRetPrev
+                setter: setVBCRetPrev
+            type: string
+        vRetPrev:
+            expose: true
+            access_type: public_method
+            serialized_name: vRetPrev
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVRetPrev
+                setter: setVRetPrev
+            type: string

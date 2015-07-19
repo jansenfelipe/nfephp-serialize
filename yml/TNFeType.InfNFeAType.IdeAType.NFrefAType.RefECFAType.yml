@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType:
+    properties:
+        mod:
+            expose: true
+            access_type: public_method
+            serialized_name: mod
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getMod
+                setter: setMod
+            type: string
+        nECF:
+            expose: true
+            access_type: public_method
+            serialized_name: nECF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNECF
+                setter: setNECF
+            type: string
+        nCOO:
+            expose: true
+            access_type: public_method
+            serialized_name: nCOO
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNCOO
+                setter: setNCOO
+            type: string

@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType:
+    properties:
+        nRE:
+            expose: true
+            access_type: public_method
+            serialized_name: nRE
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNRE
+                setter: setNRE
+            type: string
+        chNFe:
+            expose: true
+            access_type: public_method
+            serialized_name: chNFe
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getChNFe
+                setter: setChNFe
+            type: string
+        qExport:
+            expose: true
+            access_type: public_method
+            serialized_name: qExport
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQExport
+                setter: setQExport
+            type: string

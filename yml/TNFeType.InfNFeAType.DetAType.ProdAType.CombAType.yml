@@ -1,0 +1,62 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType:
+    properties:
+        cProdANP:
+            expose: true
+            access_type: public_method
+            serialized_name: cProdANP
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCProdANP
+                setter: setCProdANP
+            type: string
+        pMixGN:
+            expose: true
+            access_type: public_method
+            serialized_name: pMixGN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPMixGN
+                setter: setPMixGN
+            type: string
+        cODIF:
+            expose: true
+            access_type: public_method
+            serialized_name: CODIF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCODIF
+                setter: setCODIF
+            type: string
+        qTemp:
+            expose: true
+            access_type: public_method
+            serialized_name: qTemp
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getQTemp
+                setter: setQTemp
+            type: string
+        uFCons:
+            expose: true
+            access_type: public_method
+            serialized_name: UFCons
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getUFCons
+                setter: setUFCons
+            type: string
+        cIDE:
+            expose: true
+            access_type: public_method
+            serialized_name: CIDE
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCIDE
+                setter: setCIDE
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType

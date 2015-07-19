@@ -1,0 +1,42 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType:
+    properties:
+        vBC:
+            expose: true
+            access_type: public_method
+            serialized_name: vBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBC
+                setter: setVBC
+            type: string
+        vDespAdu:
+            expose: true
+            access_type: public_method
+            serialized_name: vDespAdu
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVDespAdu
+                setter: setVDespAdu
+            type: string
+        vII:
+            expose: true
+            access_type: public_method
+            serialized_name: vII
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVII
+                setter: setVII
+            type: string
+        vIOF:
+            expose: true
+            access_type: public_method
+            serialized_name: vIOF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVIOF
+                setter: setVIOF
+            type: string

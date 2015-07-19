@@ -1,7 +1,7 @@
 {
   "name": "jansenfelipe/nfephp-serialize",
   "description": "Transforme NFe(xml) em objetos PHP (e vice-versa)",
-  "keywords": ["laravel", "nfephp", "nfe", "php"],
+  "keywords": ["nfephp", "nfe", "php"],
   "license": "MIT",
   "authors": [
     {
@@ -11,12 +11,17 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "jms/serializer": "^1.0"
+    "jms/serializer": "xsd2php-dev as 0.18.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "~4.0",
-    "phpunit/phpunit-skeleton-generator": "*"
+    "phpunit/phpunit": "^5.0@dev",
+    "goetas/xsd2php":"2.*@dev",
+    "goetas/xsd-reader":"2.*@dev"
   },
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/goetas/serializer.git"
+  }],
   "autoload": {
     "psr-4": {
       "JansenFelipe\\NFePHPSerialize\\": "src"

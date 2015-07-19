@@ -1,0 +1,32 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType:
+    properties:
+        iCMSTot:
+            expose: true
+            access_type: public_method
+            serialized_name: ICMSTot
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getICMSTot
+                setter: setICMSTot
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
+        iSSQNtot:
+            expose: true
+            access_type: public_method
+            serialized_name: ISSQNtot
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getISSQNtot
+                setter: setISSQNtot
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
+        retTrib:
+            expose: true
+            access_type: public_method
+            serialized_name: retTrib
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getRetTrib
+                setter: setRetTrib
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType

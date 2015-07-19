@@ -1,0 +1,152 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType:
+    properties:
+        orig:
+            expose: true
+            access_type: public_method
+            serialized_name: orig
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getOrig
+                setter: setOrig
+            type: string
+        cSOSN:
+            expose: true
+            access_type: public_method
+            serialized_name: CSOSN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCSOSN
+                setter: setCSOSN
+            type: string
+        modBC:
+            expose: true
+            access_type: public_method
+            serialized_name: modBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getModBC
+                setter: setModBC
+            type: string
+        vBC:
+            expose: true
+            access_type: public_method
+            serialized_name: vBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBC
+                setter: setVBC
+            type: string
+        pRedBC:
+            expose: true
+            access_type: public_method
+            serialized_name: pRedBC
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPRedBC
+                setter: setPRedBC
+            type: string
+        pICMS:
+            expose: true
+            access_type: public_method
+            serialized_name: pICMS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPICMS
+                setter: setPICMS
+            type: string
+        vICMS:
+            expose: true
+            access_type: public_method
+            serialized_name: vICMS
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVICMS
+                setter: setVICMS
+            type: string
+        modBCST:
+            expose: true
+            access_type: public_method
+            serialized_name: modBCST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getModBCST
+                setter: setModBCST
+            type: string
+        pMVAST:
+            expose: true
+            access_type: public_method
+            serialized_name: pMVAST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPMVAST
+                setter: setPMVAST
+            type: string
+        pRedBCST:
+            expose: true
+            access_type: public_method
+            serialized_name: pRedBCST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPRedBCST
+                setter: setPRedBCST
+            type: string
+        vBCST:
+            expose: true
+            access_type: public_method
+            serialized_name: vBCST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVBCST
+                setter: setVBCST
+            type: string
+        pICMSST:
+            expose: true
+            access_type: public_method
+            serialized_name: pICMSST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPICMSST
+                setter: setPICMSST
+            type: string
+        vICMSST:
+            expose: true
+            access_type: public_method
+            serialized_name: vICMSST
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVICMSST
+                setter: setVICMSST
+            type: string
+        pCredSN:
+            expose: true
+            access_type: public_method
+            serialized_name: pCredSN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getPCredSN
+                setter: setPCredSN
+            type: string
+        vCredICMSSN:
+            expose: true
+            access_type: public_method
+            serialized_name: vCredICMSSN
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVCredICMSSN
+                setter: setVCredICMSSN
+            type: string
