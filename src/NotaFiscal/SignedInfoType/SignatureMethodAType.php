@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType;
+namespace JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType;
 
 /**
  * Class representing SignatureMethodAType

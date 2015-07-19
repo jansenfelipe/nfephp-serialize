@@ -19,7 +19,7 @@ class TNFeType
     private $infNFe = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\Xmldsig\Signature $signature
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\Signature $signature
      */
     private $signature = null;
 
@@ -52,7 +52,7 @@ class TNFeType
     /**
      * Gets as signature
      *
-     * @return \JansenFelipe\NFePHPSerialize\Xmldsig\Signature
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\Signature
      */
     public function getSignature()
     {
@@ -62,10 +62,10 @@ class TNFeType
     /**
      * Sets a new signature
      *
-     * @param \JansenFelipe\NFePHPSerialize\Xmldsig\Signature $signature
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\Signature $signature
      * @return self
      */
-    public function setSignature(\JansenFelipe\NFePHPSerialize\Xmldsig\Signature $signature)
+    public function setSignature(\JansenFelipe\NFePHPSerialize\NotaFiscal\Signature $signature)
     {
         $this->signature = $signature;
         return $this;

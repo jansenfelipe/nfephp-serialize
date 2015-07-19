@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\KeyInfoType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\KeyInfoType:
     properties:
         id:
             expose: true
@@ -18,4 +18,4 @@ JansenFelipe\NFePHPSerialize\Xmldsig\KeyInfoType:
             accessor:
                 getter: getX509Data
                 setter: setX509Data
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\X509DataType
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\X509DataType

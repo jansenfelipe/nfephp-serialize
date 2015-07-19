@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType:
     properties:
         id:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType:
             accessor:
                 getter: getCanonicalizationMethod
                 setter: setCanonicalizationMethod
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType\CanonicalizationMethodAType
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType\CanonicalizationMethodAType
         signatureMethod:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType:
             accessor:
                 getter: getSignatureMethod
                 setter: setSignatureMethod
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType\SignatureMethodAType
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType\SignatureMethodAType
         reference:
             expose: true
             access_type: public_method
@@ -38,4 +38,4 @@ JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType:
             accessor:
                 getter: getReference
                 setter: setReference
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType

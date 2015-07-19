@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType;
+namespace JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType;
 
 /**
  * Class representing DigestMethodAType

@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\Xmldsig;
+namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing KeyInfoType
@@ -17,7 +17,7 @@ class KeyInfoType
     private $id = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\Xmldsig\X509DataType $x509Data
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\X509DataType $x509Data
      */
     private $x509Data = null;
 
@@ -46,7 +46,7 @@ class KeyInfoType
     /**
      * Gets as x509Data
      *
-     * @return \JansenFelipe\NFePHPSerialize\Xmldsig\X509DataType
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\X509DataType
      */
     public function getX509Data()
     {
@@ -56,10 +56,10 @@ class KeyInfoType
     /**
      * Sets a new x509Data
      *
-     * @param \JansenFelipe\NFePHPSerialize\Xmldsig\X509DataType $x509Data
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\X509DataType $x509Data
      * @return self
      */
-    public function setX509Data(\JansenFelipe\NFePHPSerialize\Xmldsig\X509DataType $x509Data)
+    public function setX509Data(\JansenFelipe\NFePHPSerialize\NotaFiscal\X509DataType $x509Data)
     {
         $this->x509Data = $x509Data;
         return $this;

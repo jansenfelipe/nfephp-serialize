@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\SignatureValueType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\SignatureValueType:
     properties:
         __value:
             expose: true

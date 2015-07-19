@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType\DigestMethodAType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType\DigestMethodAType:
     properties:
         algorithm:
             expose: true

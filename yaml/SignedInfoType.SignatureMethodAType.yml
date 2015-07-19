@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType\SignatureMethodAType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType\SignatureMethodAType:
     properties:
         algorithm:
             expose: true

@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType\CanonicalizationMethodAType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType\CanonicalizationMethodAType:
     properties:
         algorithm:
             expose: true

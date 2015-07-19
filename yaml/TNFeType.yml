@@ -19,4 +19,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType:
             accessor:
                 getter: getSignature
                 setter: setSignature
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\Signature
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\Signature

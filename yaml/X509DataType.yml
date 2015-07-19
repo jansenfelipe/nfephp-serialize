@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\X509DataType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\X509DataType:
     properties:
         x509Certificate:
             expose: true

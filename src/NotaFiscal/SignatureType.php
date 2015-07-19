@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\Xmldsig;
+namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing SignatureType
@@ -17,18 +17,18 @@ class SignatureType
     private $id = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType $signedInfo
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType $signedInfo
      */
     private $signedInfo = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\Xmldsig\SignatureValueType
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\SignatureValueType
      * $signatureValue
      */
     private $signatureValue = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\Xmldsig\KeyInfoType $keyInfo
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\KeyInfoType $keyInfo
      */
     private $keyInfo = null;
 
@@ -57,7 +57,7 @@ class SignatureType
     /**
      * Gets as signedInfo
      *
-     * @return \JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType
      */
     public function getSignedInfo()
     {
@@ -67,10 +67,10 @@ class SignatureType
     /**
      * Sets a new signedInfo
      *
-     * @param \JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType $signedInfo
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType $signedInfo
      * @return self
      */
-    public function setSignedInfo(\JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType $signedInfo)
+    public function setSignedInfo(\JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType $signedInfo)
     {
         $this->signedInfo = $signedInfo;
         return $this;
@@ -79,7 +79,7 @@ class SignatureType
     /**
      * Gets as signatureValue
      *
-     * @return \JansenFelipe\NFePHPSerialize\Xmldsig\SignatureValueType
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\SignatureValueType
      */
     public function getSignatureValue()
     {
@@ -89,10 +89,11 @@ class SignatureType
     /**
      * Sets a new signatureValue
      *
-     * @param \JansenFelipe\NFePHPSerialize\Xmldsig\SignatureValueType $signatureValue
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\SignatureValueType
+     * $signatureValue
      * @return self
      */
-    public function setSignatureValue(\JansenFelipe\NFePHPSerialize\Xmldsig\SignatureValueType $signatureValue)
+    public function setSignatureValue(\JansenFelipe\NFePHPSerialize\NotaFiscal\SignatureValueType $signatureValue)
     {
         $this->signatureValue = $signatureValue;
         return $this;
@@ -101,7 +102,7 @@ class SignatureType
     /**
      * Gets as keyInfo
      *
-     * @return \JansenFelipe\NFePHPSerialize\Xmldsig\KeyInfoType
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\KeyInfoType
      */
     public function getKeyInfo()
     {
@@ -111,10 +112,10 @@ class SignatureType
     /**
      * Sets a new keyInfo
      *
-     * @param \JansenFelipe\NFePHPSerialize\Xmldsig\KeyInfoType $keyInfo
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\KeyInfoType $keyInfo
      * @return self
      */
-    public function setKeyInfo(\JansenFelipe\NFePHPSerialize\Xmldsig\KeyInfoType $keyInfo)
+    public function setKeyInfo(\JansenFelipe\NFePHPSerialize\NotaFiscal\KeyInfoType $keyInfo)
     {
         $this->keyInfo = $keyInfo;
         return $this;

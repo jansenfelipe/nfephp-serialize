@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\Xmldsig;
+namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing Signature

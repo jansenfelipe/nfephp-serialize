@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\SignatureType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\SignatureType:
     properties:
         id:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\Xmldsig\SignatureType:
             accessor:
                 getter: getSignedInfo
                 setter: setSignedInfo
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\SignedInfoType
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\SignedInfoType
         signatureValue:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ JansenFelipe\NFePHPSerialize\Xmldsig\SignatureType:
             accessor:
                 getter: getSignatureValue
                 setter: setSignatureValue
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\SignatureValueType
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\SignatureValueType
         keyInfo:
             expose: true
             access_type: public_method
@@ -38,4 +38,4 @@ JansenFelipe\NFePHPSerialize\Xmldsig\SignatureType:
             accessor:
                 getter: getKeyInfo
                 setter: setKeyInfo
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\KeyInfoType
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\KeyInfoType

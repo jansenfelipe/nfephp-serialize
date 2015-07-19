@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\Xmldsig;
+namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing ReferenceType
@@ -27,12 +27,13 @@ class ReferenceType
     private $type = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\Xmldsig\TransformType[] $transforms
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TransformType[] $transforms
      */
     private $transforms = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType\DigestMethodAType
+     * @property
+     * \JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType\DigestMethodAType
      * $digestMethod
      */
     private $digestMethod = null;
@@ -112,9 +113,9 @@ class ReferenceType
      * Adds as transform
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\Xmldsig\TransformType $transform
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TransformType $transform
      */
-    public function addToTransforms(\JansenFelipe\NFePHPSerialize\Xmldsig\TransformType $transform)
+    public function addToTransforms(\JansenFelipe\NFePHPSerialize\NotaFiscal\TransformType $transform)
     {
         $this->transforms[] = $transform;
         return $this;
@@ -145,7 +146,7 @@ class ReferenceType
     /**
      * Gets as transforms
      *
-     * @return \JansenFelipe\NFePHPSerialize\Xmldsig\TransformType[]
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TransformType[]
      */
     public function getTransforms()
     {
@@ -155,7 +156,7 @@ class ReferenceType
     /**
      * Sets a new transforms
      *
-     * @param \JansenFelipe\NFePHPSerialize\Xmldsig\TransformType[] $transforms
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TransformType[] $transforms
      * @return self
      */
     public function setTransforms(array $transforms)
@@ -167,7 +168,7 @@ class ReferenceType
     /**
      * Gets as digestMethod
      *
-     * @return \JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType\DigestMethodAType
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType\DigestMethodAType
      */
     public function getDigestMethod()
     {
@@ -177,11 +178,11 @@ class ReferenceType
     /**
      * Sets a new digestMethod
      *
-     * @param \JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType\DigestMethodAType
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType\DigestMethodAType
      * $digestMethod
      * @return self
      */
-    public function setDigestMethod(\JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType\DigestMethodAType $digestMethod)
+    public function setDigestMethod(\JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType\DigestMethodAType $digestMethod)
     {
         $this->digestMethod = $digestMethod;
         return $this;

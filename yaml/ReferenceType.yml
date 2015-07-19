@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType:
     properties:
         id:
             expose: true
@@ -36,7 +36,7 @@ JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType:
             accessor:
                 getter: getTransforms
                 setter: setTransforms
-            type: array<JansenFelipe\NFePHPSerialize\Xmldsig\TransformType>
+            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TransformType>
             xml_list:
                 inline: false
                 entry_name: Transform
@@ -50,7 +50,7 @@ JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType:
             accessor:
                 getter: getDigestMethod
                 setter: setDigestMethod
-            type: JansenFelipe\NFePHPSerialize\Xmldsig\ReferenceType\DigestMethodAType
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\ReferenceType\DigestMethodAType
         digestValue:
             expose: true
             access_type: public_method

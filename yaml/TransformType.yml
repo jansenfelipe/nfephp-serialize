@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\Xmldsig\TransformType:
+JansenFelipe\NFePHPSerialize\NotaFiscal\TransformType:
     properties:
         algorithm:
             expose: true
