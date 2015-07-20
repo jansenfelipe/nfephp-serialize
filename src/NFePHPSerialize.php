@@ -16,9 +16,8 @@ class NFePHPSerialize {
 
         $serializerBuilder = SerializerBuilder::create();
 
-        $serializerBuilder->addMetadataDir(__DIR__.'/../yml', 'JansenFelipe\NFePHPSerialize\NotaFiscal');
+        $serializerBuilder->addMetadataDir(__DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'yaml', 'JansenFelipe\NFePHPSerialize\NotaFiscal');
         $serializer = $serializerBuilder->build();
-
 
         return $serializer->deserialize($xml, NFe::class, 'xml');
     }
