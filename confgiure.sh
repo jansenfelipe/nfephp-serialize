@@ -1,3 +1,0 @@
-#!/bin/bash
-vendor/bin/xsd2php convert:php xsd/*.xsd --ns-map='http://www.portalfiscal.inf.br/nfe;JansenFelipe/NFePHPSerialize/NotaFiscal/' --ns-dest='JansenFelipe/NFePHPSerialize/NotaFiscal/;src/NotaFiscal' --ns-map='http://www.w3.org/2000/09/xmldsig#;JansenFelipe/NFePHPSerialize/NotaFiscal/' --ns-dest='JansenFelipe/NFePHPSerialize/Xmldsig/;src/NotaFiscal'
-vendor/bin/xsd2php convert:jms-yaml xsd/*.xsd --ns-map='http://www.portalfiscal.inf.br/nfe;JansenFelipe/NFePHPSerialize/NotaFiscal/' --ns-dest='JansenFelipe/NFePHPSerialize/NotaFiscal/;yaml/' --ns-map='http://www.w3.org/2000/09/xmldsig#;JansenFelipe/NFePHPSerialize/NotaFiscal/' --ns-dest='JansenFelipe/NFePHPSerialize/Xmldsig/;yaml/'
