@@ -3,12 +3,12 @@
 namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
 
 /**
- * Class representing TProtNFeType
+ * Class representing TRetCancNFeType
  *
- * Tipo Protocolo de status resultado do processamento da NF-e
- * XSD Type: TProtNFe
+ * Tipo retorno Pedido de Cancelamento da Nota Fiscal Eletrônica
+ * XSD Type: TRetCancNFe
  */
-class TProtNFeType
+class TRetCancNFeType
 {
 
     /**
@@ -17,12 +17,12 @@ class TProtNFeType
     private $versao = null;
 
     /**
-     * Dados do protocolo de status
+     * Dados do Resultado do Pedido de Cancelamento da Nota Fiscal Eletrônica
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
-     * $infProt
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
+     * $infCanc
      */
-    private $infProt = null;
+    private $infCanc = null;
 
     /**
      * @property \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
@@ -52,29 +52,29 @@ class TProtNFeType
     }
 
     /**
-     * Gets as infProt
+     * Gets as infCanc
      *
-     * Dados do protocolo de status
+     * Dados do Resultado do Pedido de Cancelamento da Nota Fiscal Eletrônica
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
      */
-    public function getInfProt()
+    public function getInfCanc()
     {
-        return $this->infProt;
+        return $this->infCanc;
     }
 
     /**
-     * Sets a new infProt
+     * Sets a new infCanc
      *
-     * Dados do protocolo de status
+     * Dados do Resultado do Pedido de Cancelamento da Nota Fiscal Eletrônica
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
-     * $infProt
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
+     * $infCanc
      * @return self
      */
-    public function setInfProt(\JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType $infProt)
+    public function setInfCanc(\JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType $infCanc)
     {
-        $this->infProt = $infProt;
+        $this->infCanc = $infCanc;
         return $this;
     }
 

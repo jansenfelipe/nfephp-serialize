@@ -3,12 +3,12 @@
 namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
 
 /**
- * Class representing TProtNFeType
+ * Class representing TEventoType
  *
- * Tipo Protocolo de status resultado do processamento da NF-e
- * XSD Type: TProtNFe
+ * Tipo Evento
+ * XSD Type: TEvento
  */
-class TProtNFeType
+class TEventoType
 {
 
     /**
@@ -17,12 +17,10 @@ class TProtNFeType
     private $versao = null;
 
     /**
-     * Dados do protocolo de status
-     *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
-     * $infProt
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType
+     * $infEvento
      */
-    private $infProt = null;
+    private $infEvento = null;
 
     /**
      * @property \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
@@ -52,29 +50,25 @@ class TProtNFeType
     }
 
     /**
-     * Gets as infProt
+     * Gets as infEvento
      *
-     * Dados do protocolo de status
-     *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType
      */
-    public function getInfProt()
+    public function getInfEvento()
     {
-        return $this->infProt;
+        return $this->infEvento;
     }
 
     /**
-     * Sets a new infProt
+     * Sets a new infEvento
      *
-     * Dados do protocolo de status
-     *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
-     * $infProt
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType
+     * $infEvento
      * @return self
      */
-    public function setInfProt(\JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType $infProt)
+    public function setInfEvento(\JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType $infEvento)
     {
-        $this->infProt = $infProt;
+        $this->infEvento = $infEvento;
         return $this;
     }
 

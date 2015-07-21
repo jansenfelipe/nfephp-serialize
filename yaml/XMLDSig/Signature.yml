@@ -1,0 +1,3 @@
+JansenFelipe\NFePHPSerialize\XMLDSig\Signature:
+    xml_root_name: Signature
+    xml_root_namespace: 'http://www.w3.org/2000/09/xmldsig#'

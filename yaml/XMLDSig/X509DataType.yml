@@ -1,0 +1,12 @@
+JansenFelipe\NFePHPSerialize\XMLDSig\X509DataType:
+    properties:
+        x509Certificate:
+            expose: true
+            access_type: public_method
+            serialized_name: X509Certificate
+            xml_element:
+                namespace: 'http://www.w3.org/2000/09/xmldsig#'
+            accessor:
+                getter: getX509Certificate
+                setter: setX509Certificate
+            type: \AnySimpleType

@@ -3,12 +3,13 @@
 namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
 
 /**
- * Class representing TProtNFeType
+ * Class representing TRetInutNFeType
  *
- * Tipo Protocolo de status resultado do processamento da NF-e
- * XSD Type: TProtNFe
+ * Tipo retorno do Pedido de Inutilização de Numeração da Nota Fiscal
+ * Eletrônica
+ * XSD Type: TRetInutNFe
  */
-class TProtNFeType
+class TRetInutNFeType
 {
 
     /**
@@ -17,12 +18,13 @@ class TProtNFeType
     private $versao = null;
 
     /**
-     * Dados do protocolo de status
+     * Dados do Retorno do Pedido de Inutilização de Numeração da Nota Fiscal
+     * Eletrônica
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
-     * $infProt
+     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
+     * $infInut
      */
-    private $infProt = null;
+    private $infInut = null;
 
     /**
      * @property \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
@@ -52,29 +54,31 @@ class TProtNFeType
     }
 
     /**
-     * Gets as infProt
+     * Gets as infInut
      *
-     * Dados do protocolo de status
+     * Dados do Retorno do Pedido de Inutilização de Numeração da Nota Fiscal
+     * Eletrônica
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
+     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
      */
-    public function getInfProt()
+    public function getInfInut()
     {
-        return $this->infProt;
+        return $this->infInut;
     }
 
     /**
-     * Sets a new infProt
+     * Sets a new infInut
      *
-     * Dados do protocolo de status
+     * Dados do Retorno do Pedido de Inutilização de Numeração da Nota Fiscal
+     * Eletrônica
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
-     * $infProt
+     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
+     * $infInut
      * @return self
      */
-    public function setInfProt(\JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType $infProt)
+    public function setInfInut(\JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType $infInut)
     {
-        $this->infProt = $infProt;
+        $this->infInut = $infInut;
         return $this;
     }
 

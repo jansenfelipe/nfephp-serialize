@@ -1,0 +1,3 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\ConsReciNFe:
+    xml_root_name: consReciNFe
+    xml_root_namespace: 'http://www.portalfiscal.inf.br/nfe'

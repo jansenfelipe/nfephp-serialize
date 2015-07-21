@@ -1,0 +1,31 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType:
+    properties:
+        versao:
+            expose: true
+            access_type: public_method
+            serialized_name: versao
+            accessor:
+                getter: getVersao
+                setter: setVersao
+            xml_attribute: true
+            type: string
+        infInut:
+            expose: true
+            access_type: public_method
+            serialized_name: infInut
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getInfInut
+                setter: setInfInut
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType\InfInutAType
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            type: JansenFelipe\NFePHPSerialize\XMLDSig\Signature

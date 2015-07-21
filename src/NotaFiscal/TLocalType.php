@@ -5,7 +5,8 @@ namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
 /**
  * Class representing TLocalType
  *
- * Tipo Dados do Local de Retirada ou Entrega // 24/10/08 - tamanho mínimo // v2.0
+ * Tipo Dados do Local de Retirada ou Entrega // 24/10/08 - tamanho mínimo //
+ * v2.0
  * XSD Type: TLocal
  */
 class TLocalType

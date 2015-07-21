@@ -6,8 +6,7 @@ class NFePHPSerializeTest extends PHPUnit_Framework_TestCase{
 
     public function testXml2Object() {
 
-        $xml = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'nfe.xml');
-
+        $xml = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'nfe2.00.xml');
 
         $object = NFePHPSerialize::xml2Object($xml);
 

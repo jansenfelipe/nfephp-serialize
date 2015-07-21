@@ -1,0 +1,22 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType:
+    properties:
+        infNFe:
+            expose: true
+            access_type: public_method
+            serialized_name: infNFe
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getInfNFe
+                setter: setInfNFe
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            type: JansenFelipe\NFePHPSerialize\XMLDSig\Signature

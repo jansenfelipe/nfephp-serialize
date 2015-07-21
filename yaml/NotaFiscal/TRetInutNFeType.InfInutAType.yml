@@ -1,0 +1,141 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        tpAmb:
+            expose: true
+            access_type: public_method
+            serialized_name: tpAmb
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpAmb
+                setter: setTpAmb
+            type: string
+        verAplic:
+            expose: true
+            access_type: public_method
+            serialized_name: verAplic
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVerAplic
+                setter: setVerAplic
+            type: string
+        cStat:
+            expose: true
+            access_type: public_method
+            serialized_name: cStat
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCStat
+                setter: setCStat
+            type: string
+        xMotivo:
+            expose: true
+            access_type: public_method
+            serialized_name: xMotivo
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getXMotivo
+                setter: setXMotivo
+            type: string
+        cUF:
+            expose: true
+            access_type: public_method
+            serialized_name: cUF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCUF
+                setter: setCUF
+            type: string
+        ano:
+            expose: true
+            access_type: public_method
+            serialized_name: ano
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getAno
+                setter: setAno
+            type: string
+        cNPJ:
+            expose: true
+            access_type: public_method
+            serialized_name: CNPJ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCNPJ
+                setter: setCNPJ
+            type: string
+        mod:
+            expose: true
+            access_type: public_method
+            serialized_name: mod
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getMod
+                setter: setMod
+            type: string
+        serie:
+            expose: true
+            access_type: public_method
+            serialized_name: serie
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getSerie
+                setter: setSerie
+            type: string
+        nNFIni:
+            expose: true
+            access_type: public_method
+            serialized_name: nNFIni
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNNFIni
+                setter: setNNFIni
+            type: string
+        nNFFin:
+            expose: true
+            access_type: public_method
+            serialized_name: nNFFin
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNNFFin
+                setter: setNNFFin
+            type: string
+        dhRecbto:
+            expose: true
+            access_type: public_method
+            serialized_name: dhRecbto
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDhRecbto
+                setter: setDhRecbto
+            type: string
+        nProt:
+            expose: true
+            access_type: public_method
+            serialized_name: nProt
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNProt
+                setter: setNProt
+            type: string

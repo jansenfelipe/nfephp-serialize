@@ -1,0 +1,21 @@
+JansenFelipe\NFePHPSerialize\XMLDSig\KeyInfoType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        x509Data:
+            expose: true
+            access_type: public_method
+            serialized_name: X509Data
+            xml_element:
+                namespace: 'http://www.w3.org/2000/09/xmldsig#'
+            accessor:
+                getter: getX509Data
+                setter: setX509Data
+            type: JansenFelipe\NFePHPSerialize\XMLDSig\X509DataType

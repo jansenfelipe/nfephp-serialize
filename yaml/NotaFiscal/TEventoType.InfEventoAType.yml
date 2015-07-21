@@ -1,0 +1,111 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: Id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        cOrgao:
+            expose: true
+            access_type: public_method
+            serialized_name: cOrgao
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCOrgao
+                setter: setCOrgao
+            type: string
+        tpAmb:
+            expose: true
+            access_type: public_method
+            serialized_name: tpAmb
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpAmb
+                setter: setTpAmb
+            type: string
+        cNPJ:
+            expose: true
+            access_type: public_method
+            serialized_name: CNPJ
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCNPJ
+                setter: setCNPJ
+            type: string
+        cPF:
+            expose: true
+            access_type: public_method
+            serialized_name: CPF
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getCPF
+                setter: setCPF
+            type: string
+        chNFe:
+            expose: true
+            access_type: public_method
+            serialized_name: chNFe
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getChNFe
+                setter: setChNFe
+            type: string
+        dhEvento:
+            expose: true
+            access_type: public_method
+            serialized_name: dhEvento
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDhEvento
+                setter: setDhEvento
+            type: string
+        tpEvento:
+            expose: true
+            access_type: public_method
+            serialized_name: tpEvento
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getTpEvento
+                setter: setTpEvento
+            type: string
+        nSeqEvento:
+            expose: true
+            access_type: public_method
+            serialized_name: nSeqEvento
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getNSeqEvento
+                setter: setNSeqEvento
+            type: string
+        verEvento:
+            expose: true
+            access_type: public_method
+            serialized_name: verEvento
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getVerEvento
+                setter: setVerEvento
+            type: string
+        detEvento:
+            expose: true
+            access_type: public_method
+            serialized_name: detEvento
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getDetEvento
+                setter: setDetEvento
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType

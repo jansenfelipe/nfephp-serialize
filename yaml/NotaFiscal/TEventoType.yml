@@ -1,0 +1,31 @@
+JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType:
+    properties:
+        versao:
+            expose: true
+            access_type: public_method
+            serialized_name: versao
+            accessor:
+                getter: getVersao
+                setter: setVersao
+            xml_attribute: true
+            type: string
+        infEvento:
+            expose: true
+            access_type: public_method
+            serialized_name: infEvento
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getInfEvento
+                setter: setInfEvento
+            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            xml_element:
+                namespace: 'http://www.portalfiscal.inf.br/nfe'
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            type: JansenFelipe\NFePHPSerialize\XMLDSig\Signature
