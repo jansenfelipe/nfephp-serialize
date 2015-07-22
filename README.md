@@ -1,5 +1,5 @@
 # NFePHP Serialize 3.10
-[![Travis](https://travis-ci.org/jansenfelipe/nfephp-serialize.svg?branch=master)](https://travis-ci.org/jansenfelipe/nfephp-serialize)
+[![Travis](https://travis-ci.org/jansenfelipe/nfephp-serialize.svg?branch=3.10)](https://travis-ci.org/jansenfelipe/nfephp-serialize)
 [![Latest Stable Version](https://poser.pugx.org/jansenfelipe/nfephp-serialize/v/stable.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
 [![Total Downloads](https://poser.pugx.org/jansenfelipe/nfephp-serialize/downloads.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
 [![Latest Unstable Version](https://poser.pugx.org/jansenfelipe/nfephp-serialize/v/unstable.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize)
