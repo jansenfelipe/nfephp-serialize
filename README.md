@@ -1,4 +1,4 @@
-# NFePHP Serialize
+# NFePHP Serialize 3.10
 [![Travis](https://travis-ci.org/jansenfelipe/nfephp-serialize.svg?branch=master)](https://travis-ci.org/jansenfelipe/nfephp-serialize)
 [![Latest Stable Version](https://poser.pugx.org/jansenfelipe/nfephp-serialize/v/stable.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
 [![Total Downloads](https://poser.pugx.org/jansenfelipe/nfephp-serialize/downloads.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
@@ -6,6 +6,8 @@
 [![MIT license](https://poser.pugx.org/jansenfelipe/nfephp-serialize/license.svg)](http://opensource.org/licenses/MIT)
 
 Transforme NFe(xml) em objetos PHP e vice-versa
+
+Compatível com a NFe 3.10 e 2.00
 
 ### Como utilizar
 
