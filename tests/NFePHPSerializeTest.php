@@ -9,11 +9,11 @@ class NFePHPSerializeTest extends PHPUnit_Framework_TestCase{
 
         //Nfe 2.00
         $xml = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'nfe2.00.xml');
-        $this->assertInstanceOf(NfeProc::class, NFePHPSerialize::xml2Object($xml));
+        $this->assertInstanceOf(NfeProc::class, NFePHPSerialize::xmlToObject($xml));
         
         //Nfe 3.10
         $xml = file_get_contents(__DIR__ . DIRECTORY_SEPARATOR . 'nfe3.10.xml');
-        $this->assertInstanceOf(NfeProc::class, NFePHPSerialize::xml2Object($xml));
+        $this->assertInstanceOf(NfeProc::class, NFePHPSerialize::xmlToObject($xml));
 
     }
     

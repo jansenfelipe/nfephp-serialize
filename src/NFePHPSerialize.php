@@ -16,7 +16,7 @@ class NFePHPSerialize {
      *
      * @return NfeProc
      */
-    public static function xml2Object($xml) {
+    public static function xmlToObject($xml) {
         $serializer = self::buildSerializer();
           
         return $serializer->deserialize($xml, NfeProc::class, 'xml');
