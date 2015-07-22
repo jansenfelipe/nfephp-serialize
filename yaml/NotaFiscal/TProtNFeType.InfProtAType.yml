@@ -68,7 +68,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType:
             accessor:
                 getter: getDigVal
                 setter: setDigVal
-            type: \AnySimpleType
+            type: string
         cStat:
             expose: true
             access_type: public_method
