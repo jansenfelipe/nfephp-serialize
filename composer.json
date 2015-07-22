@@ -23,10 +23,8 @@
             "JansenFelipe\\NFePHPSerialize\\": "src"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.10-dev"
-        }
+    "config":{
+        "preferred-install": "dist"
     },
     "minimum-stability": "dev"
 }
