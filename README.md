@@ -3,7 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/jansenfelipe/nfephp-serialize/v/stable.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
 [![Total Downloads](https://poser.pugx.org/jansenfelipe/nfephp-serialize/downloads.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize) 
 [![Latest Unstable Version](https://poser.pugx.org/jansenfelipe/nfephp-serialize/v/unstable.svg)](https://packagist.org/packages/jansenfelipe/nfephp-serialize)
-[![MIT license](https://img.shields.io/dub/l/vibe-d.svg)](http://opensource.org/licenses/MIT)
+[![MIT license](https://poser.pugx.org/jansenfelipe/nfephp-serialize/license.svg)](http://opensource.org/licenses/MIT)
 
 Transforme NFe(xml) em objetos PHP e vice-versa
 
