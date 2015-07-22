@@ -4,8 +4,12 @@ namespace JansenFelipe\NFePHPSerialize;
 
 use Goetas\Xsd\XsdToPhp\Jms\Handler\BaseTypesHandler;
 use Goetas\Xsd\XsdToPhp\Jms\Handler\XmlSchemaDateHandler;
+use JansenFelipe\NFePHPSerialize\JMS\Serializer\XmlDeserializationVisitorCustom;
+use JansenFelipe\NFePHPSerialize\JMS\Serializer\XmlSerializationVisitorCustom;
 use JansenFelipe\NFePHPSerialize\NotaFiscal\NfeProc;
 use JMS\Serializer\Handler\HandlerRegistryInterface;
+use JMS\Serializer\Naming\CamelCaseNamingStrategy;
+use JMS\Serializer\Naming\SerializedNameAnnotationStrategy;
 use JMS\Serializer\Serializer;
 use JMS\Serializer\SerializerBuilder;
 
@@ -40,6 +44,9 @@ class NFePHPSerialize {
      */
     private static function buildSerializer(){
         $serializerBuilder = SerializerBuilder::create();
+        
+        $serializerBuilder->setSerializationVisitor('xml', new XmlSerializationVisitorCustom(new SerializedNameAnnotationStrategy(new CamelCaseNamingStrategy())));
+        $serializerBuilder->setDeserializationVisitor('xml', new XmlDeserializationVisitorCustom(new SerializedNameAnnotationStrategy(new CamelCaseNamingStrategy())));
         
         $yamlDir = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'yaml';
         
