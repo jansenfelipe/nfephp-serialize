@@ -7,7 +7,7 @@
 
 Transforme NFe(xml) em objetos PHP e vice-versa
 
-Compatível com a NFe 3.10 e 2.00
+Compatível com a NFe 3.10 e 2.00 - Pacote de Liberação No. 8f (09/10/2014)
 
 ### Como utilizar
 

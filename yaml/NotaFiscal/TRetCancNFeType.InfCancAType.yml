@@ -78,7 +78,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType:
             accessor:
                 getter: getDhRecbto
                 setter: setDhRecbto
-            type: Goetas\Xsd\XsdToPhp\XMLSchema\DateTime
+            type: string
         nProt:
             expose: true
             access_type: public_method

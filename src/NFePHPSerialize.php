@@ -2,8 +2,6 @@
 
 namespace JansenFelipe\NFePHPSerialize;
 
-use Goetas\Xsd\XsdToPhp\Jms\Handler\BaseTypesHandler;
-use Goetas\Xsd\XsdToPhp\Jms\Handler\XmlSchemaDateHandler;
 use JansenFelipe\NFePHPSerialize\JMS\Serializer\XmlDeserializationVisitorCustom;
 use JansenFelipe\NFePHPSerialize\JMS\Serializer\XmlSerializationVisitorCustom;
 use JansenFelipe\NFePHPSerialize\NotaFiscal\NfeProc;
@@ -55,8 +53,7 @@ class NFePHPSerialize {
         
         $serializerBuilder->configureHandlers(function (HandlerRegistryInterface $handler) use ($serializerBuilder) {
             $serializerBuilder->addDefaultHandlers();
-            $handler->registerSubscribingHandler(new BaseTypesHandler()); // XMLSchema List handling
-            $handler->registerSubscribingHandler(new XmlSchemaDateHandler()); // XMLSchema date handling
+            
         });
         
         return $serializerBuilder->build();
