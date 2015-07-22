@@ -6,6 +6,7 @@ use Goetas\Xsd\XsdToPhp\Jms\Handler\BaseTypesHandler;
 use Goetas\Xsd\XsdToPhp\Jms\Handler\XmlSchemaDateHandler;
 use JansenFelipe\NFePHPSerialize\NotaFiscal\NfeProc;
 use JMS\Serializer\Handler\HandlerRegistryInterface;
+use JMS\Serializer\Serializer;
 use JMS\Serializer\SerializerBuilder;
 
 class NFePHPSerialize {
@@ -16,7 +17,28 @@ class NFePHPSerialize {
      * @return NfeProc
      */
     public static function xml2Object($xml) {
+        $serializer = self::buildSerializer();
+          
+        return $serializer->deserialize($xml, NfeProc::class, 'xml');
+    }
+    
+    /**
+     * Transforma uma NFe Objeto em XML
+     *
+     * @return string
+     */
+    public static function objectToXml(NfeProc $nfeProc) {
+        $serializer = self::buildSerializer();
         
+        return $serializer->serialize($nfeProc, 'xml');
+    }
+    
+    /**
+     * Constroi o serializer
+     *
+     * @return Serializer
+     */
+    private static function buildSerializer(){
         $serializerBuilder = SerializerBuilder::create();
         
         $yamlDir = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'yaml';
@@ -30,18 +52,7 @@ class NFePHPSerialize {
             $handler->registerSubscribingHandler(new XmlSchemaDateHandler()); // XMLSchema date handling
         });
         
-        $serializer = $serializerBuilder->build();
-
-        return $serializer->deserialize($xml, NfeProc::class, 'xml');
-    }
-    
-    /**
-     * Transforma uma NFe Objeto em XML
-     *
-     * @return NfeProc
-     */
-    public static function objectToXml(NfeProc $nfeProc) {
-        return "";
+        return $serializerBuilder->build();
     }
 
 }
