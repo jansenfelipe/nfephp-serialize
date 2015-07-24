@@ -49,6 +49,12 @@ Chame o método `objectToXml` passando o objeto `NfeProc` para transformá-la em
 $xml = NFePHPSerialize::objectToXml(new NfeProc());
 ```
 
+### Gostou? Conheça também
+
+* [CnpjGratis](https://github.com/jansenfelipe/cnpj-gratis)
+* [CpfGratis](https://github.com/jansenfelipe/cpf-gratis)
+* [CepGratis](https://github.com/jansenfelipe/cep-gratis)
+
 ### License
 
 The MIT License (MIT)
