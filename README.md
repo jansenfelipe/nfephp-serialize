@@ -56,6 +56,7 @@ $xml = NFePHPSerialize::objectToXml(new NfeProc());
 * [CnpjGratis](https://github.com/jansenfelipe/cnpj-gratis)
 * [CpfGratis](https://github.com/jansenfelipe/cpf-gratis)
 * [CepGratis](https://github.com/jansenfelipe/cep-gratis)
+* [CidadesGratis](https://github.com/jansenfelipe/cidades-gratis)
 
 ### License
 
